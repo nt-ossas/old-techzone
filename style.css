@@ -1,0 +1,185 @@
+            .head{
+                text-align: center;
+                padding-bottom: 25px;
+                color: rgb(255,87,34);
+            }
+            .body{
+                color: rgb(44,44,44);
+                background-color: cornsilk;
+                border-radius: 10px;
+                padding-right: 35px;
+                padding-left: 35px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .img-header{
+                width: 250px;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a{
+                color: rgb(255,87,34);
+            }
+            a:hover{
+                font-size: larger;
+            }
+            .presentation{
+                border: 6px solid rgb(255,87,34);
+                border-radius: 10px;
+                margin: 20px;
+            }
+            li{
+                color: rgb(44,44,44);
+                text-align: start;
+            }
+            .REDIRECT{
+                padding: 16px;
+                color: cornsilk;
+                background-color: rgb(255,87,34);
+                border-radius: 28px;
+            }
+            .REDIRECT-gen{
+                padding: 16px;
+                color: black;
+                background-color: cornsilk;
+                border-radius: 28px;
+                font-weight: bold;
+            }
+            .REDIRECT-gen:hover{
+                padding: 22px;
+                border-radius: 34px;
+            }
+            .mid{
+                padding-top: 50px;
+                text-align: center;
+                padding-bottom: 50px;
+                color: cornsilk;
+            }
+            h3{
+                text-align: center;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .link:hover{
+                color:rgb(44,44,44);
+                font-weight: bold;
+            }
+            #nvidia:hover{
+                width: 300px;
+            }
+            #amd:hover{
+                width: 300px;
+            }
+            #intel:hover{
+                width: 300px;
+            }
+            #nvidia{
+                position: relative;
+                right: 200px;
+            }
+            #amd{
+                position: relative;
+                right: 70px;
+            }
+            #intel{
+                position: relative;
+                left: 110px;
+            }
+            #nvidia:hover{
+                border-bottom: 6px solid rgb(118,185,0);
+            }
+            #amd:hover{
+                border-bottom: 6px solid rgb(214, 0, 0);
+            }
+            #intel:hover{
+                border-bottom: 6px solid rgb(0,198,252);
+            }
+            .info{
+                text-align: center;
+                position: fixed;
+                margin-right: 285px;
+                margin-top: 5px;
+                color: cornsilk;
+                border: 6px solid cornsilk;
+                width: 230px;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            iframe{
+                position: fixed;
+                bottom: 10px;
+                border: 6px solid cornsilk;
+                border-radius: 10px;
+            }
+            #cpu_intel{
+                margin-right: 250px;
+            }
+            #cpu_intel:hover{
+                border-bottom: 6px solid rgb(0,198,252);
+            }
+            #ryzen:hover{
+                border-bottom: 6px solid rgb(214, 0, 0);
+            }
+            p{
+                text-align: justify;
+                font-weight: 600;
+            }
+            #ddr4{
+                margin-right: 150px;
+            }
+            #ddr4:hover{
+                border-bottom: 6px solid rgb(44,44,44);
+            }
+            #ddr5:hover{
+                border-bottom: 6px solid rgb(44,44,44);
+            }
+            #nvme:hover{
+                border-bottom: 6px solid rgb(44,44,44);
+            }
+            #ssd:hover{
+                border-bottom: 6px solid rgb(44,44,44);
+            }
+            #hdd:hover{
+                border-bottom: 6px solid rgb(44,44,44);
+            }
+            .elenco{
+                margin-top: 50px;
+                margin-bottom: 100px;
+            }
+            #nvme{
+                margin-right: 100px;
+            }
+            #hdd{
+                margin-left: 100px;
+            }
+            .king{
+                margin: 0px 50px 30px;
+                margin-left: 290px;
+            }
+            .info{
+                text-align: center;
+                position: fixed;
+                margin-right: 285px;
+                margin-top: 5px;
+                color: cornsilk;
+                border: 6px solid cornsilk; 
+                width: 230px;
+                border-radius: 10px;
+            }
+            .main{
+                text-align: center;
+                position: fixed;
+                margin-right: 285px;
+                margin-top: 5px;
+                color: cornsilk;
+                border: 6px solid rgb(255,87,34); 
+                width: 230px;
+                border-radius: 10px;
+            }
+            .part{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
