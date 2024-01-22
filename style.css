@@ -77,10 +77,10 @@
                 width: 300px;
             }
             #nvidia{
-                margin-right: 75px;
+                margin-right: 95px;
             }
-            #intel{
-                margin-left: 40px;
+            #amd{
+                margin-right: 200px;
             }
             #nvidia:hover{
                 border-bottom: 6px solid rgb(118,185,0);
