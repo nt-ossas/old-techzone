@@ -19,6 +19,7 @@
             }
             p{
                 font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
             }
             a{
                 color: rgb(255,87,34);
@@ -116,10 +117,6 @@
             }
             #ryzen:hover{
                 border-bottom: 6px solid rgb(214, 0, 0);
-            }
-            p{
-                text-align: justify;
-                font-weight: 600;
             }
             .king{
                 margin: 0px 50px 30px;
