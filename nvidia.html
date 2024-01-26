@@ -6,6 +6,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color: rgb(44,44,44);">
+        <style>
+            .c1{
+                color: rgb(118,185,0);
+                font-weight: bold;
+                border-color: rgb(118,185,0);
+            }
+        </style>
         <div class="info">
             <h1 style="color:rgb(72,186,0);font-family: Arial, Helvetica, sans-serif; ">NVIDIA GPUs</h1>
             <img src="https://images.nvidia.com/aem-dam/Solutions/geforce/news/geforce-rtx-graphics-cards/geforce-rtx-2080-technical-photography-front.png" width="160px">
@@ -39,15 +46,180 @@
             <img src="https://images.nvidia.com/aem-dam/Solutions/geforce/news/geforce-rtx-graphics-cards/geforce-rtx-2080-technical-photography-angled-003.png" width="250px">
         </div>
         <div class="mid">
-            <ul>
-                <li class="part"><b><u>GTX 1600 SERIES</u></b><ol>
-                    <li></li>
-                </ol></li>
-                <li class="part"><b><u>RTX 2000 SERIES</u></b></li>
-                <li class="part"><b><u>RTX 3000 SERIES</u></b></li>
-                <li class="part"><b><u>RTX 4000 SERIES</u></b></li>
-                <li class="part"><b><u>RTX QUADRO SERIES</u></b></li>
-            </ul>
+                <center>
+                    <table style="margin-bottom: 70px;">
+                    <tr>
+                        <th>GPU</th>
+                        <th>VRAM</th>
+                        <th>VRAM TYPE</th>
+                        <th>CLOCK (MHz)</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4"class="c1">GTX 1600 series</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">GTX 1650</td>
+                        <td rowspan="2">4gb</td>
+                        <td>GDDR5</td>
+                        <td class="c1">1485-1665</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">GTX 1650 super</td>
+                        <td>GDDR6</td>
+                        <td class="c1">1530-1725</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">GTX 1660</td>
+                        <td rowspan="3">6gb</td>
+                        <td>GDDR5</td>
+                        <td rowspan="2" class="c1">1530-1785</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">GTX 1660 super</td>
+                        <td rowspan="2">GDDR6</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">GTX 1660 ti</td>
+                        <td class="c1">1500-1770</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>GPU</th>
+                        <th>VRAM (GDDR6)</th>
+                        <th>CLOCK (MHz)</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3"class="c1">RTX 2000 series</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2060</td>
+                        <td>6gb</td>
+                        <td class="c1">1365-1680</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2060 super</td>
+                        <td rowspan="5">8gb</td>
+                        <td class="c1">1470-1650</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2070</td>
+                        <td class="c1">1410-1620</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2070 super</td>
+                        <td class="c1">1605-1770</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2080</td>
+                        <td class="c1">1515-1710</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2080 super</td>
+                        <td class="c1">1650-1815</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 2080 ti</td>
+                        <td>11gb</td>
+                        <td class="c1">1350-1545</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX TITAN</td>
+                        <td>24gb</td>
+                        <td class="c1">1350-1770</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3" class="c1">RTX 3000 series</th>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3050</td>
+                        <td>8gb</td>
+                        <td class="c1">1552-1777</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3060</td>
+                        <td>12gb</td>
+                        <td class="c1">1320-1780</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3060 ti</td>
+                        <td rowspan="3">8gb</td>
+                        <td class="c1">1410-1665</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3070</td>
+                        <td class="c1">1500-1730</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3070 ti</td>
+                        <td class="c1">1575-1770</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3080</td>
+                        <td>10</td>
+                        <td class="c1">1440-1710</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3080 ti</td>
+                        <td>12gb</td>
+                        <td class="c1">1365-1665</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3090</td>
+                        <td rowspan="2">24gb</td>
+                        <td class="c1">1400-1700</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 3090 ti</td>
+                        <td class="c1">1560-1680</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" class="c1">RTX 4000 series</th>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4060</td>
+                        <td>8gb</td>
+                        <td class="c1">1830-2460</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4060 ti</td>
+                        <td>8-16gb</td>
+                        <td class="c1">2310-2535</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4070</td>
+                        <td>8gb</td>
+                        <td class="c1">1920-2475</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4070 super</td>
+                        <td rowspan="2">12gb</td>
+                        <td class="c1">1980-2475</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4070 ti</td>
+                        <td class="c1">2310-2610</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4070 ti super</td>
+                        <td rowspan="3">16gb</td>
+                        <td class="c1">2340-2610</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4080</td>
+                        <td class="c1">2235-2520</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4080 super</td>
+                        <td class="c1">2295-2550</td>
+                    </tr>
+                    <tr>
+                        <td class="c1">RTX 4090</td>
+                        <td>24gb</td>
+                        <td class="c1">2205-2505</td>
+                    </tr>
+                </table>
+                </center>
         </div>
         <center><a href="https://exossas.github.io/TECHZONE/index" class="REDIRECT-gen">HOME</a></center>
     </div>
