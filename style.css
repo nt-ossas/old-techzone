@@ -150,6 +150,14 @@
                 width: 230px;
                 border-radius: 10px;
             }
+            .social{
+                text-align: center;
+                position: fixed;
+                margin-right: 285px;
+                margin-top: 875px;
+                color: cornsilk;
+                width: 230px;
+            }
             .part{
                 margin-top: 20px;
                 margin-bottom: 20px;
