@@ -26,13 +26,16 @@
             }
             p{
                 font-family: Arial, Helvetica, sans-serif;
-                text-align: justify;
+                text-align: left;
             }
             a{
                 color: rgb(255,87,34);
             }
             a:hover{
                 font-size: larger;
+            }
+            a.normal:hover{
+                font-size: 100%;
             }
             .presentation{
                 border: 6px solid rgb(255,87,34);
@@ -130,16 +133,6 @@
                 margin: 0px 50px 30px;
                 margin-left: 290px;
             }
-            .info{
-                text-align: center;
-                position: fixed;
-                margin-right: 285px;
-                margin-top: 5px;
-                color: cornsilk;
-                border: 6px solid cornsilk; 
-                width: 230px;
-                border-radius: 10px;
-            }
             .main{
                 text-align: center;
                 position: fixed;
@@ -154,7 +147,7 @@
                 text-align: center;
                 position: fixed;
                 margin-right: 285px;
-                margin-top: 875px;
+                margin-top: 705px;
                 color: cornsilk;
                 width: 230px;
             }
@@ -177,4 +170,10 @@
             #b4{
                 margin-left: 20px;
                 margin-right: 20px;
+            }
+
+            /* ADATTAMENTI SCHERMI TELEFONO */
+
+            @media screen and (max-width:800px){
+                /* DA COMPLETARE */
             }
