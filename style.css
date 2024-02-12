@@ -129,6 +129,13 @@ iframe{
     border: 6px solid cornsilk;
     border-radius: 10px;
 }
+.pcpartpicker{
+    position: fixed;
+    bottom: 10px;
+    border: 6px solid cornsilk;
+    border-radius: 10px;
+    width: 230px;
+}
 #cpu_intel{
     margin-right: 250px;
 }
@@ -177,6 +184,11 @@ iframe{
 .img-info{
     border-radius: 8px;
 }
+.img-pc{
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+}
 .social{
     display:inline-block;
     padding:0.5em 1em;
@@ -210,7 +222,7 @@ iframe{
     margin-bottom: 20px;
     transition: 0.3s;
 }
-.icon{
+.immagine{
     width:1.5em;
     vertical-align:middle;
     margin-right:0.5em;
