@@ -132,7 +132,7 @@ iframe{
 .pcpartpicker{
     position: fixed;
     bottom: 10px;
-    border: 6px solid cornsilk;
+    border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     width: 230px;
 }
@@ -211,21 +211,17 @@ iframe{
     background:#7289DA;
     margin-top: 760px;
 }
-.social-discord:hover{
-    background:#8EA1E1;
-}
 .social-whatsapp{
     background:#25D366;
-}
-.social-whatsapp:hover{
-    background:#6EEC8F;
-    margin-bottom: 20px;
-    transition: 0.3s;
 }
 .immagine{
     width:1.5em;
     vertical-align:middle;
     margin-right:0.5em;
+}
+.part-info{
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 /* ANIMATE CSS */
