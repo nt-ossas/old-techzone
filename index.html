@@ -3,30 +3,34 @@
     <head>
         <title>TECHZONE</title>
         <link rel="icon" href="https://i.ibb.co/M1tbMSM/TECHZONE.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body style="background-color: rgb(44,44,44); color: white; margin: 0px 50px 30px;">
         <div>
+            <!-- POP-UP sinistra -->
             <div class="main">
                 <center>
-                <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4080/geforce-rtx-4080-super-og-1200x630.jpg" width="200px" style="margin-top: 25px;margin-bottom: 25px;">
-                <img src="https://www.ceotech.it/wp-content/uploads/2024/01/AMD-Radeon-RX-7600-XT-16-GB-di-VRAM-per-il-gaming-a-1440p-e-AI-1.jpg" width="200px"style="margin-top: 25px;margin-bottom: 25px;">
-                <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2981x1983/2400x1600/filters:focal(1491x992:1492x993):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25006992/14THGENDESKTOP.png" width="200px"style="margin-top: 25px;margin-bottom: 25px;">
-                <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/r7000-06-2.jpeg" width="200px"style="margin-top: 25px;margin-bottom: 25px;">
+                <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4080/geforce-rtx-4080-super-og-1200x630.jpg" width="200px" style="margin-top: 25px;margin-bottom: 25px;" class="img-info animate__animated animate__headShake animate__infinite">
+                <img src="https://www.ceotech.it/wp-content/uploads/2024/01/AMD-Radeon-RX-7600-XT-16-GB-di-VRAM-per-il-gaming-a-1440p-e-AI-1.jpg" width="200px"style="margin-top: 25px;margin-bottom: 25px;"class="img-info animate__animated animate__headShake animate__infinite animate__delay-1s">
+                <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2981x1983/2400x1600/filters:focal(1491x992:1492x993):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25006992/14THGENDESKTOP.png" width="200px"style="margin-top: 25px;margin-bottom: 25px;"class="img-info animate__animated animate__headShake animate__infinite animate__delay-2s">
+                <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/r7000-06-2.jpeg" width="200px"style="margin-top: 25px;margin-bottom: 25px;"class="img-info animate__animated animate__headShake animate__infinite animate__delay-3s">
                 </center>
             </div>
-            <div class="social">
-                <a href="https://discord.gg/zu53RTeG77" target="_blank" class="normal " style="color: rgb(114,137,218);"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="35px" style="margin-right: 10px; position: relative;top: 10px;">Discord</a><br>
-                <a href="https://wa.me/+393883726860" target="_blank" class="normal " style="color: rgb(37,211,102);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" width="40px" style="margin-top: 5px;margin-right: 5px; position: relative;top: 15px;">WhatsApp</a>
-            </div>
-            <div  style="margin-top: 50px;border-color: rgb(255,87,34);" class="king">
+            <!-- collegamenti social -->
+                <a href="https://wa.me/+393883726860" class="social social-whatsapp animate__animated animate__bounceInLeft" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="Whatsapp" class="icon"> Whatsapp </a>
+                <a href="https://discord.gg/zu53RTeG77" class="social social-discord animate__animated animate__bounceInUp" target="_blank"> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" class="icon"> Discord </a>          
+            <!-- immagine TECHZONE -->
+            <div style="margin-top: 50px;border-color: rgb(255,87,34);" class="king">
             <div class="head" style="text-align: center;">
-                <img src="https://i.ibb.co/M1tbMSM/TECHZONE.png" width="450px" style="border-radius: 10px;border: 6px solid rgb(255,87,34); margin-top: 30px;">
+                <img src="https://i.ibb.co/M1tbMSM/TECHZONE.png" width="450px" class="img-header animate__animated animate__bounceInDown">
             </div>
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">CPU (Core)</h3>
             <div class="body elenco">
                 <ul>
                     <li>
+                        <!-- CPU -->
                         <b><u>Le CPU</u></b>, o core, sono il "cervello" di un computer. Questi chip svolgono una vasta gamma di operazioni fondamentali necessarie per far funzionare un sistema informatico. Le CPU sono composte da diverse parti: 
                         <ol>
                            <li style="margin-top: 15px;">Unità di controllo: gestisce e coordina le operazioni all'interno della CPU e controlla il flusso dei dati tra la memoria, i dispositivi di input/output e le altre parti del computer.</li> 
@@ -39,7 +43,8 @@
             </div>
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">GPU (Schede Video)</h3>
             <div class="body elenco">
-                    <li style="margin-top: 15px;">
+                    <li style="margin-top: 15px;" id="gpu">
+                        <!-- GPU -->
                         <b><u>Le GPU</u></b>, o schede video, sono componenti hardware progettati per accelerare e ottimizzare i calcoli legati alla grafica e all'elaborazione parallela. Solitamente, sono utilizzati nei computer per renderizzare immagini, video e grafica 3D in tempo reale. <br><br>
                         Le GPU sono composte da migliaia di piccoli processori chiamati "core". Questi core lavorano insieme per gestire compiti intensivi di calcolo in parallelo, rendendo le GPU estremamente efficaci nel manipolare e visualizzare grandi quantità di dati simultaneamente. <br><br>
                         Negli ultimi anni, le GPU hanno visto un'enorme evoluzione, diventando sempre più potenti e efficienti, e hanno esteso il loro utilizzo oltre il semplice ambito grafico per supportare una vasta gamma di compiti computazionali.
@@ -48,6 +53,7 @@
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">RAM (Random Access Memory)</h3>
             <div class="body elenco">
                     <li style="margin-top: 15px;">
+                        <!-- RAM -->
                         <b><u>Le RAM</u></b> (Random Access Memory) sono dispositivi fondamentali nei computer e negli apparecchi elettronici che memorizzano temporaneamente i dati necessari per l'esecuzione dei programmi. I diversi standard DDR (Double Data Rate) rappresentano diverse generazioni di questa memoria, ognuna con caratteristiche e prestazioni diverse:
                         <ol>
                         <li style="margin-top: 15px;"><b><u>DDR</u></b> (Double Data Rate): È stata la prima generazione di RAM DDR introdotta sul mercato. Operava a velocità di clock più basse rispetto ai successivi standard DDR2, DDR3, DDR4 e DDR5. La DDR ha contribuito a migliorare le prestazioni rispetto alla SDRAM (Synchronous Dynamic RAM) grazie al suo metodo di trasferimento dati a doppio rateo. Tuttavia, era inferiore in termini di velocità e capacità rispetto alle generazioni successive.
@@ -61,6 +67,7 @@
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">Memorie (NVME, SSD e HDD)</h3>
             <div class="body elenco">
                     <li style="margin-top: 15px;">
+                        <!-- MEMORIE-->
                         <b><u>Le MEMORIE</u></b>, o memorie fisse del computer, si riferiscono principalmente alle memorie di archiviazione permanente utilizzate per conservare dati a lungo termine. Queste memorie vengono spesso chiamate dispositivi di archiviazione di massa e sono fondamentali per conservare il sistema operativo, i programmi e i dati utente. Le tre principali tipologie di memorie fisse sono le Non Volatile Memory Express (NVMe), il Solid State Drive (SSD) e l'Hard Disk Drive (HDD).
                         <ol>
                             <li style="margin-top: 15px;"><b><u>NVMe</u></b>si riferiscono a un tipo di tecnologia di storage che offre prestazioni superiori rispetto agli standard precedenti come SATA (Serial ATA). Le memorie fisse NVMe sono spesso progettate per sfruttare a pieno le potenzialità delle moderne memorie flash. Alcune caratteristiche di questa tipologia di memoria sono per esempio l'elevata velocità di scrittura e lettura dei dati, la bassa latenza e sicuramente la piccola dimensione e la facilità di installazione.</li>
@@ -69,7 +76,8 @@
                         </ol>
                     </li>
                 </ul>
-            </div>            
+            </div>
+                <!-- 4 png generali -->            
                 <div style="margin-bottom: 50px;">
                     <center>
                         <img src="https://png.pngtree.com/png-vector/20230414/ourmid/pngtree-graphics-card-vector-png-image_6705735.png" width="250px" style="margin: 25px;">
@@ -78,20 +86,22 @@
                         <img src="https://png.pngtree.com/png-vector/20221027/ourmid/pngtree-ssd-storage-computer-pc-black-png-image_6387334.png" width="250px"style="margin: 25px;">
                     </center>
                 </div>
-                <h3 class="presentation" style="color: cornsilk;padding: 10px;">3 principali brand di schede video</h3>
+            <!-- brand GPU -->
+            <h3 class="presentation" style="color: cornsilk;padding: 10px;">3 principali brand di schede video</h3>
             <div class="body">
                 <a href="https://exossas.github.io/TECHZONE/nvidia" id="nvidia"><img src="https://freepngimg.com/save/22979-nvidia-image/7322x1387" width="300px"></a>
                 <a href="https://exossas.github.io/TECHZONE/amd" id="amd"><img style="text-align: center;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
                 <a href="https://exossas.github.io/TECHZONE/intel" id="intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150px"></a>
             </div>
-             <h3 style="color: cornsilk;padding: 10px;" class="presentation">2 principali brand di core</h3>
-             <div class="body">
+            <!-- brand CPU -->
+            <h3 style="color: cornsilk;padding: 10px;" class="presentation">2 principali brand di core</h3>
+            <div class="body">
                 <center>
                 <a href="https://exossas.github.io/TECHZONE/cpu_intel" id="cpu_intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150"></a>
                 <a href="https://exossas.github.io/TECHZONE/ryzen" id="ryzen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
                 </center>
             </div>
-            <div>
+            <!-- Computer builds -->
             <h3 style="color: cornsilk;padding: 10px;" class="presentation">Vari computer di varie fasce, <b>0% bottleneck</b></h3>
             <div class="body">
                 <center>

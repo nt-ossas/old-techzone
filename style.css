@@ -15,8 +15,9 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
             .img-header{
-                width: 250px;
-                margin-top: 15px;
+                border-radius: 10px;
+                border: 6px solid rgb(255,87,34);
+                margin-top: 30px;
             }
             th,td{
                 border: 3px solid cornsilk;
@@ -33,9 +34,11 @@
             }
             a:hover{
                 font-size: larger;
+                transition: 0.4s;
             }
             a.normal:hover{
                 font-size: 100%;
+                transition: 0.4s;
             }
             .presentation{
                 border: 6px solid rgb(255,87,34);
@@ -51,6 +54,7 @@
                 color: cornsilk;
                 background-color: rgb(255,87,34);
                 border-radius: 28px;
+                transition: 0.4s;
             }
             .REDIRECT-gen{
                 padding: 16px;
@@ -63,6 +67,7 @@
             .REDIRECT-gen:hover{
                 padding: 22px;
                 border-radius: 34px;
+                transition: 0.4s;
             }
             .mid{
                 padding-top: 50px;
@@ -78,6 +83,7 @@
             .link:hover{
                 color:rgb(44,44,44);
                 font-weight: bold;
+                transition: 0.4s;
             }
             #nvidia:hover{
                 width: 300px;
@@ -96,12 +102,15 @@
             }
             #nvidia:hover{
                 border-bottom: 6px solid rgb(118,185,0);
+                transition: 0.3s;
             }
             #amd:hover{
                 border-bottom: 6px solid rgb(214, 0, 0);
+                transition: 0.3s;
             }
             #intel:hover{
                 border-bottom: 6px solid rgb(0,198,252);
+                transition: 0.3s;
             }
             .info{
                 text-align: center;
@@ -125,9 +134,11 @@
             }
             #cpu_intel:hover{
                 border-bottom: 6px solid rgb(0,198,252);
+                transition: 0.3s;
             }
             #ryzen:hover{
                 border-bottom: 6px solid rgb(214, 0, 0);
+                transition: 0.3s;
             }
             .king{
                 margin: 0px 50px 30px;
@@ -142,14 +153,6 @@
                 border: 6px solid rgb(255,87,34); 
                 width: 230px;
                 border-radius: 10px;
-            }
-            .social{
-                text-align: center;
-                position: fixed;
-                margin-right: 285px;
-                margin-top: 705px;
-                color: cornsilk;
-                width: 230px;
             }
             .part{
                 margin-top: 20px;
@@ -170,6 +173,52 @@
             #b4{
                 margin-left: 20px;
                 margin-right: 20px;
+            }
+            .img-info{
+                border-radius: 8px;
+            }
+            .social{
+                display:inline-block;
+                padding:0.5em 1em;
+                border:none;
+                border-radius:8px;
+                box-sizing: border-box;
+                text-decoration:none;
+                font-weight:300;
+                color: cornsilk;
+                text-align:center;
+                transition: 0.2s;
+                cursor:pointer;
+                font-weight:bold;
+                position: fixed;
+                margin-right: 285px;
+                margin-top: 705px;
+                width: 240px;
+            }
+            .social-discord{
+                background:#7289DA;
+                margin-top: 760px;
+            }
+            .social-discord:hover{
+                background:#8EA1E1;
+            }
+            .social-whatsapp{
+                background:#25D366;
+            }
+            .social-whatsapp:hover{
+                background:#6EEC8F;
+                margin-bottom: 20px;
+                transition: 0.3s;
+            }
+            .icon{
+                width:1.5em;
+                vertical-align:middle;
+                margin-right:0.5em;
+            }
+
+            /* ANIMATE CSS */
+            .animate__animated.animate__headShake{
+                --animate-duration: 10s;
             }
 
             /* ADATTAMENTI SCHERMI TELEFONO */
