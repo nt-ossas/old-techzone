@@ -33,7 +33,7 @@ a{
     color: rgb(255,87,34);
 }
 a:hover{
-    font-size: larger;
+    font-size: 110%;
     transition: 0.4s;
 }
 a.normal:hover{
@@ -65,7 +65,7 @@ li{
     margin-bottom: 50px;
 }
 .REDIRECT-gen:hover{
-    padding: 22px;
+    padding: 16px;
     border-radius: 34px;
     transition: 0.4s;
 }
