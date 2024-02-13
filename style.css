@@ -1,7 +1,7 @@
 .head{
     text-align: center;
-    padding-bottom: 25px;
     color: rgb(255,87,34);
+    margin: 30px;
 }
 .body{
     color: rgb(44,44,44);
@@ -152,16 +152,6 @@ iframe{
     margin: 0px 50px 30px;
     margin-left: 290px;
 }
-.main{
-    text-align: center;
-    position: fixed;
-    margin-right: 285px;
-    margin-top: 5px;
-    color: cornsilk;
-    border: 6px solid rgb(255,87,34); 
-    width: 230px;
-    border-radius: 10px;
-}
 .part{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -203,25 +193,27 @@ iframe{
     transition: 0.2s;
     cursor:pointer;
     font-weight:bold;
-    position: fixed;
-    margin-right: 285px;
-    margin-top: 550px;
     width: 240px;
 }
 .social-whatsapp{
-    background:#25D366;
+    background-image: url(https://wallpapers.com/images/hd/whatsapp-icon-pattern-2xgv9df70fo6s9ex.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
 }
 .social-discord{
-    background:#7289DA;
-    margin-top: 600px;
+    background-color: #7289da;
+    margin-top: 10px;
 }
 .social-telegram{
-    background:#0088CC;
-    margin-top: 645px;
+    margin-top: 10px;
+    background-image: url(https://www.tradingonlineguida.com/wp-content/uploads/2022/10/Segnali-di-Trading-scaled.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .social-instagram{
-    background:black;
-    margin-top: 695px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 .immagine{
     width:1.5em;
@@ -231,6 +223,75 @@ iframe{
 .part-info{
     border-radius: 8px;
     margin-bottom: 5px;
+}
+aside{
+    text-align: center;
+    color: cornsilk;
+    width: 230px;
+    margin-top: 20px;
+    float: left;
+    position: fixed;
+}
+.left{
+    border: 6px solid cornsilk; 
+    border-radius: 10px;    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 10px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: cornsilk;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 22px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(255,87,34);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 22px;
+  }
+  input:checked + .slider {
+    background-color: rgb(44,44,44);
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(44,44,44);
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.darkmode{
+    background-color: rgb(44,44,44);
+    color: cornsilk;
 }
 
 /* ANIMATE CSS */
