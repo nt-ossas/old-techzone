@@ -128,6 +128,7 @@ iframe{
     bottom: 10px;
     border: 6px solid cornsilk;
     border-radius: 10px;
+    width: 230px;
 }
 .pcpartpicker{
     position: fixed;
@@ -204,15 +205,23 @@ iframe{
     font-weight:bold;
     position: fixed;
     margin-right: 285px;
-    margin-top: 705px;
+    margin-top: 550px;
     width: 240px;
-}
-.social-discord{
-    background:#7289DA;
-    margin-top: 760px;
 }
 .social-whatsapp{
     background:#25D366;
+}
+.social-discord{
+    background:#7289DA;
+    margin-top: 600px;
+}
+.social-telegram{
+    background:#0088CC;
+    margin-top: 645px;
+}
+.social-instagram{
+    background:black;
+    margin-top: 695px;
 }
 .immagine{
     width:1.5em;
