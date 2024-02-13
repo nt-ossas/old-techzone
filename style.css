@@ -211,9 +211,9 @@ iframe{
     background-size: cover;
     background-position: center;
 }
-.social-instagram{
+.singup{
     margin-top: 10px;
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-color: rgb(255,87,34);
 }
 .immagine{
     width:1.5em;
@@ -227,7 +227,7 @@ iframe{
 aside{
     text-align: center;
     color: cornsilk;
-    width: 230px;
+    width: 240px;
     margin-top: 20px;
     float: left;
     position: fixed;
@@ -293,6 +293,142 @@ aside{
     background-color: rgb(44,44,44);
     color: cornsilk;
 }
+
+/* SING UP PAGE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(44,44,44);
+}
+
+.container {
+  padding: 40px;
+  border-radius: 20px;
+  border: 8px solid rgb(24,24,24);
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.container .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.container .form.signin,
+.container.signinForm .form.signup {
+  display: none;
+}
+
+.container.signinForm .form.signin {
+  display: flex;
+}
+
+.container .form h2 {
+  color: cornsilk;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.container .form .inputBox {
+  position: relative;
+  width: 300px;
+}
+
+.container .form .inputBox input {
+  padding: 12px 10px 12px 48px;
+  border: none;
+  width: 100%;
+  background: rgb(24,24,24);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: cornsilk;
+  font-weight: 300;
+  border-radius: 25px;
+  font-size: 1em;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+  outline: none;
+}
+
+.container .form .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 12px 10px 12px 48px;
+  pointer-events: none;
+  font-size: 1em;
+  font-weight: 300;
+  transition: 0.5s;
+  letter-spacing: 0.05em;
+  color: cornsilk;
+}
+
+.container .form .inputBox input:valid ~ span,
+.container .form .inputBox input:focus ~ span {
+  color: rgb(255,87,34);
+  border: 1px solid rgb(255,87,34);
+  background: rgb(24,24,24);
+  transform: translateX(25px) translateY(-7px);
+  font-size: 0.6em;
+  padding: 0 8px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+
+.container .form .inputBox input:valid,
+.container .form .inputBox input:focus {
+  border: 1px solid rgb(255,87,34);
+}
+
+.container .form .inputBox i {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  width: 25px;
+  padding: 2px 0;
+  padding-right: 8px;
+  color: rgb(255,87,34);
+  border-right: 1px solid rgb(255,87,34);
+}
+
+.container .form .inputBox input[type="submit"] {
+  background: rgb(255,87,34);
+  color: cornsilk;
+  padding: 10px 0;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.container .form p {
+  color: rgb(187, 82, 49);
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+.container .form p a {
+  font-weight: 500;
+  color: rgb(187, 82, 49);
+}
+
 
 /* ANIMATE CSS */
 .animate__animated.animate__headShake{
