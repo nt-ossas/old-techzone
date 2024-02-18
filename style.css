@@ -9,15 +9,16 @@
     border-radius: 10px;
     padding-right: 35px;
     padding-left: 35px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .img-header{
-    border-radius: 10px;
+    border-radius: 12px;
     border: 6px solid rgb(255,87,34);
     margin-top: 30px;
+    box-shadow: 0px 5px 10px 5px black;
 }
 th,td{
     border: 3px solid cornsilk;
@@ -28,6 +29,8 @@ th,td{
 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 a{
     color: rgb(255,87,34);
@@ -44,6 +47,10 @@ a.normal:hover{
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     margin: 20px;
+    box-shadow: 0px 3px 3px 3px black;
+}
+.p-builds{
+    width: 800px;
 }
 li{
     color: rgb(44,44,44);
@@ -63,6 +70,7 @@ li{
     border-radius: 28px;
     font-weight: bold;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .REDIRECT-gen:hover{
     padding: 16px;
@@ -130,9 +138,24 @@ iframe{
     border-radius: 10px;
     width: 230px;
 }
+.rotto{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: 6px solid cornsilk;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+}
+.bs{
+  border-color: rgb(255,87,34);
+  color: cornsilk;
+}
 .pcpartpicker{
     position: fixed;
     bottom: 10px;
+    left: 10px;
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     width: 230px;
@@ -174,6 +197,7 @@ iframe{
 }
 .img-info{
     border-radius: 8px;
+    box-shadow: 0px 5px 10px 5px black;
 }
 .img-pc{
     width: 350px;
@@ -194,6 +218,7 @@ iframe{
     cursor:pointer;
     font-weight:bold;
     width: 240px;
+    box-shadow: 0px 5px 10px 5px black;
 }
 .social-whatsapp{
     background-image: url(https://wallpapers.com/images/hd/whatsapp-icon-pattern-2xgv9df70fo6s9ex.jpg);
@@ -204,6 +229,7 @@ iframe{
 .social-discord{
     background-color: #7289da;
     margin-top: 10px;
+    padding: 10.5px;
 }
 .social-telegram{
     margin-top: 10px;
@@ -225,12 +251,12 @@ aside{
     color: cornsilk;
     width: 240px;
     margin-top: 20px;
-    float: left;
     position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .left{
     border: 6px solid cornsilk; 
-    border-radius: 10px;    
+    border-radius: 10px; 
 }
 .switch {
     position: relative;
@@ -269,10 +295,10 @@ aside{
     border-radius: 22px;
   }
   input:checked + .slider {
-    background-color: rgb(44,44,44);
+    background-color: rgb(255,87,34);
   }
   input:focus + .slider {
-    box-shadow: 0 0 1px rgb(44,44,44);
+    box-shadow: 0 0 1px rgb(255,87,34);
   }
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
@@ -286,8 +312,33 @@ aside{
     border-radius: 50%;
   }
 .darkmode{
-    background-color: rgb(44,44,44);
+    background-color: rgb(255,87,34);
     color: cornsilk;
+}
+nav{
+  background-color: rgb(255,87,34);
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 32px;
+  box-shadow: 0px 5px 10px 5px black;
+  margin-top: 20px;
+}
+nav > a{
+  color: cornsilk;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+nav > a:hover{
+  transition: 0.25s;
+  background-color: cornsilk;
+  color: rgb(255,87,34);
+  border-radius: 32px;
+}
+.div-nav{
+  position: fixed;
+  left: 630px
 }
 
 /* SING UP PAGE */

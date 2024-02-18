@@ -9,8 +9,17 @@
     </head>
     <body style="background-color: rgb(44,44,44); color: white; margin: 0px 50px 30px;">
         <div>
-            <aside>
+            <!-- Navigation Bar -->
+            <div class="animate__animated animate__bounceInDown animate__delay-1s div-nav">
+                <nav style="margin-left: 230px;">
+                <a href="/index">Home</a>
+                <a href="/about">About</a>
+                <a href="/builds">PC Builds</a>
+                <a href="/singup">Log In</a>
+                </nav>
+            </div>
             <!-- POP-UP sinistra -->
+            <aside>
             <div class="left" style="border-color: rgb(255,87,34);">
                 <center>
                 <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4080/geforce-rtx-4080-super-og-1200x630.jpg" width="200px" style="margin-top: 25px;margin-bottom: 25px;" class="img-info animate__animated animate__headShake animate__infinite">
@@ -21,18 +30,16 @@
             <!-- collegamenti social -->
                 <a href="https://wa.me/+393883726860" class="social social-whatsapp animate__animated animate__backInUp" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="Whatsapp" class="immagine"> Whatsapp </a>
                 <a href="https://discord.gg/zu53RTeG77" class="social social-discord animate__animated animate__backInUp animate__delay-1s" target="_blank"> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" class="immagine"> Discord </a>          
-                <a href="https://t.me/sstTECHZONE" class="social social-telegram animate__animated animate__backInUp animate__delay-2s" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram" class="immagine"> Telegram </a>          
-            <!-- SING UP / LOG IN -->
-                <a href="https://exossas.github.io/TECHZONE/singup" class="social animate__animated animate__backInUp animate__delay-3s" style="margin-top: 10px;background-color: rgb(255,87,34);"> <img src="https://cdn-icons-png.flaticon.com/512/3276/3276535.png" alt="SingUp" class="immagine"> SingUp/LogIn </a>          
+                <a href="https://t.me/sstTECHZONE" class="social social-telegram animate__animated animate__backInUp animate__delay-2s" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram" class="immagine"> Telegram </a>                    
             <!-- dark mode project -->
-            <label class="switch animate__animated animate__backInLeft animate__delay-4s" id="switchNotte" onmousedown="dark()">
+            <label class="switch animate__animated animate__backInUp animate__delay-3s" id="switchNotte" onmousedown="dark()">
                 <input type="checkbox">
                 <span class="slider"></span>
             </label>
             </aside>
             <!-- immagine TECHZONE -->
-            <div style="margin-top: 50px;border-color: rgb(255,87,34);" class="king">
-            <div class="head" style="text-align: center;">
+            <div style="margin-top: 100px;border-color: rgb(255,87,34);" class="king">
+            <div class="head">
                 <img src="https://i.ibb.co/M1tbMSM/TECHZONE.png" width="450px" class="img-header animate__animated animate__bounceInDown">
             </div>
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">CPU (Core)</h3>
@@ -86,38 +93,38 @@
                     </li>
                 </ul>
             </div>
-                <!-- 4 png generali -->            
-                <div style="margin-bottom: 50px;">
-                    <center>
-                        <img src="https://png.pngtree.com/png-vector/20230414/ourmid/pngtree-graphics-card-vector-png-image_6705735.png" width="250px" style="margin: 25px;">
-                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/computers-mobile-hardware/processor-icon.png" width="200px"style="margin: 25px;">
-                        <img src="https://www.freeiconspng.com/thumbs/ram-icon-png/blocks-ram-icon--0.png" width="200px"style="margin: 25px;">
-                        <img src="https://png.pngtree.com/png-vector/20221027/ourmid/pngtree-ssd-storage-computer-pc-black-png-image_6387334.png" width="250px"style="margin: 25px;">
-                    </center>
-                </div>
+            <!-- 4 png generali -->            
+            <div style="margin-bottom: 50px;">
+                <center>
+                    <img src="https://png.pngtree.com/png-vector/20230414/ourmid/pngtree-graphics-card-vector-png-image_6705735.png" width="250px" style="margin: 25px;">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/computers-mobile-hardware/processor-icon.png" width="200px"style="margin: 25px;">
+                     <img src="https://www.freeiconspng.com/thumbs/ram-icon-png/blocks-ram-icon--0.png" width="200px"style="margin: 25px;">
+                     <img src="https://png.pngtree.com/png-vector/20221027/ourmid/pngtree-ssd-storage-computer-pc-black-png-image_6387334.png" width="250px"style="margin: 25px;">
+                 </center>
+            </div>
             <!-- brand GPU -->
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">3 principali brand di schede video</h3>
             <div class="body">
-                <a href="https://exossas.github.io/TECHZONE/nvidia" id="nvidia"><img src="https://freepngimg.com/save/22979-nvidia-image/7322x1387" width="300px"></a>
-                <a href="https://exossas.github.io/TECHZONE/amd" id="amd"><img style="text-align: center;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
-                <a href="https://exossas.github.io/TECHZONE/intel" id="intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150px"></a>
+                <a href="/nvidia" id="nvidia"><img src="https://freepngimg.com/save/22979-nvidia-image/7322x1387" width="300px"></a>
+                <a href="/amd" id="amd"><img style="text-align: center;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
+                <a href="/intel" id="intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150px"></a>
             </div>
             <!-- brand CPU -->
             <h3 style="color: cornsilk;padding: 10px;" class="presentation">2 principali brand di core</h3>
             <div class="body">
                 <center>
-                <a href="https://exossas.github.io/TECHZONE/cpu_intel" id="cpu_intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150"></a>
-                <a href="https://exossas.github.io/TECHZONE/ryzen" id="ryzen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
+                <a href="/cpu_intel" id="cpu_intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150"></a>
+                <a href="/ryzen" id="ryzen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
                 </center>
             </div>
             <!-- Computer builds -->
             <h3 style="color: cornsilk;padding: 10px;" class="presentation">Vari computer di varie fasce, <b>0% bottleneck</b></h3>
             <div class="body">
                 <center>
-                <a href="https://exossas.github.io/TECHZONE/b1" id="b1" class="normal"><img src="https://static.wixstatic.com/media/8517ed_8d0ae9a124ad456ca7ff908ef51994cf~mv2.png/v1/fill/w_250,h_250,al_c,q_95,enc_auto/8517ed_8d0ae9a124ad456ca7ff908ef51994cf~mv2.png" width="170px"></a>
-                <a href="https://exossas.github.io/TECHZONE/b2" id="b2" class="normal"><img src="https://static.wixstatic.com/media/8517ed_bf34ba1b71eb482a9b800c5abf5ab48a~mv2.png/v1/fill/w_250,h_250,al_c,q_95,enc_auto/8517ed_bf34ba1b71eb482a9b800c5abf5ab48a~mv2.png" width="170px"></a>
-                <a href="https://exossas.github.io/TECHZONE/b3" id="b3" class="normal"><img src="https://hwready.it/wp-content/uploads/2023/07/unnamed-5-1024x1024.png" width="130px" style="position: relative;bottom: 10px;"></a>
-                <a href="https://exossas.github.io/TECHZONE/b4" id="b4" class="normal"><img src="https://nzxt.com/assets/cms/34299/1672294506-h9-flow-hero-black.png?auto=format&fit=crop&h=1000&w=1000" width="150px"></a>
+                <a href="/b1" id="b1" class="normal"><img src="https://static.wixstatic.com/media/8517ed_8d0ae9a124ad456ca7ff908ef51994cf~mv2.png/v1/fill/w_250,h_250,al_c,q_95,enc_auto/8517ed_8d0ae9a124ad456ca7ff908ef51994cf~mv2.png" width="170px"></a>
+                <a href="/b2" id="b2" class="normal"><img src="https://static.wixstatic.com/media/8517ed_bf34ba1b71eb482a9b800c5abf5ab48a~mv2.png/v1/fill/w_250,h_250,al_c,q_95,enc_auto/8517ed_bf34ba1b71eb482a9b800c5abf5ab48a~mv2.png" width="170px"></a>
+                <a href="/b3" id="b3" class="normal"><img src="https://hwready.it/wp-content/uploads/2023/07/unnamed-5-1024x1024.png" width="130px" style="position: relative;bottom: 10px;"></a>
+                <a href="/b4" id="b4" class="normal"><img src="https://nzxt.com/assets/cms/34299/1672294506-h9-flow-hero-black.png?auto=format&fit=crop&h=1000&w=1000" width="150px"></a>
                 </center>
             </div>
             </div>
