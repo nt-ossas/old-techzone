@@ -144,10 +144,12 @@ iframe{
     width: 230px;
     text-align: center;
     padding: 10px;
+    margin-top: 80px;
 }
 .bs{
   border-color: rgb(255,87,34);
   color: cornsilk;
+  margin-top: 80px;
 }
 .pcpartpicker{
     position: fixed;
@@ -171,6 +173,7 @@ iframe{
 .king{
     margin: 0px 50px 30px;
     margin-left: 290px;
+    margin-top: 80px;
 }
 .part{
     margin-top: 20px;
@@ -407,9 +410,23 @@ nav{
 .hamburger{
   display: none;
 }
+hr{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-color: rgb(44,44,44);
+}
+#about{
+  width: 800px;
+  rotate: 270deg;
+  position: relative;
+  right: 100px;
+}
+#about-p{
+  margin-left: -200px;
+}
 
 /* Style Mobile*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   nav{
       position: fixed;
       z-index: 3;
@@ -616,7 +633,6 @@ body {
   font-weight: 500;
   color: rgb(187, 82, 49);
 }
-
 
 /* ANIMATE CSS */
 .animate__animated.animate__headShake{

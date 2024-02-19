@@ -14,6 +14,6 @@ hamburger.addEventListener('click', ()=>{
 });
 function dark(){
     //alert("Funzione ancora non disponibile, torna a controllare più tardi");
-    ciao.classList.remove('body');
-    ciao.classList.add('darkmode');
+    ciao.classList.remove('.body');
+    ciao.classList.add('.darkmode');
 };
