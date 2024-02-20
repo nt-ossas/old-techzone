@@ -281,6 +281,7 @@ aside{
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 22px;
+    box-shadow: 0px 3px 5px 3px black;
   }
   .slider:before {
     position: absolute;
@@ -289,16 +290,18 @@ aside{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: rgb(255,87,34);
+    background-color: rgb(44,44,44);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 22px;
   }
   input:checked + .slider {
     background-color: rgb(255,87,34);
+    box-shadow: 0px 3px 5px 3px black;
   }
   input:focus + .slider {
     box-shadow: 0 0 1px rgb(255,87,34);
+    box-shadow: 0px 3px 5px 3px black;
   }
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
@@ -426,9 +429,27 @@ hr{
 }
 
 /* Style Mobile*/
-@media screen and (max-width: 900px){
+@media only screen and (max-width: 800px) and (min-width:300px){
+  .king{
+    position: relative;
+    top: -800px;
+    margin-left: 40px;
+  }
+  aside{
+    position: relative;
+    right: 2000px;
+  }
+  #gpu-brand,#cpu-brand{
+    position: relative;
+    right: 2000px;
+  }
+  #PCbuilds{
+    position: relative;
+    top: -600px;
+  }
   nav{
       position: fixed;
+      left: 42px;
       z-index: 3;
   }
   .hamburger{
@@ -487,6 +508,18 @@ hr{
       opacity: 1;
   }
 }
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+  transition: all 0.7s ease;
+  width:0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
 /*Animating Hamburger Icon on Click*/
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
