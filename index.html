@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="it">
     <head>
+        <!-- Meta Links -->
+        <meta http-equiv="refresh" content="300">
+        <meta name="keywords" content="TECHZONE, techzone, ossas, ntossas, exossas, computer, info">
+        <meta name="description" content="TECHZONE, improve yourself">
+        <meta name="author" content="Ossas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Title + File links -->
         <title>TECHZONE</title>
         <link rel="icon" href="https://i.ibb.co/M1tbMSM/TECHZONE.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
-    <body style="background-color: rgb(44,44,44); color: white; margin: 0px 50px 30px;">
+    <body>
         <div>
             <!-- Navigation Bar -->
-            <nav style="font-weight: bold;margin-left: -50px;border-bottom: 4px solid rgb(255,87,34);box-shadow: 0px 0px 50px 0px black;">
+            <nav style="border-bottom: 4px solid rgb(255,87,34);box-shadow: 0px 0px 50px 0px black;">
                 <div class="logo" style="display: flex;align-items: center;">
                  <span style="color:rgb(255,87,34); font-size:26px; font-weight:bold; letter-spacing: px;margin-left: 20px;">TECHZONE</span>
                 </div>
@@ -23,7 +31,7 @@
                     <li><a href="/TECHZONE/index">Home</a></li>
                     <li><a href="/TECHZONE/about">About</a></li>
                     <li><a href="/TECHZONE/builds">PC Builds</a></li>
-                    <li><a href="/TECHZONE/brands">Brands</a></li>
+                    <li><a href="/TECHZONE/brands" onmousedown="dontwork()">Brands</a></li>
                     <li><a href="/TECHZONE/singup" class="login-button" style="text-transform:none;">Log In</a></li>
                 </ul>
             </nav>
@@ -37,11 +45,10 @@
                 </center>
             </div>
             <!-- collegamenti social -->
-                <a href="https://wa.me/+393883726860" class="social social-whatsapp animate__animated animate__backInUp" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="Whatsapp" class="immagine"> Whatsapp </a>
-                <a href="https://discord.gg/zu53RTeG77" class="social social-discord animate__animated animate__backInUp animate__delay-1s" target="_blank"> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" class="immagine"> Discord </a>          
-                <a href="https://t.me/sstTECHZONE" class="social social-telegram animate__animated animate__backInUp animate__delay-2s" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram" class="immagine"> Telegram </a>                    
+                <a href="https://discord.gg/zu53RTeG77" class="social social-discord animate__animated animate__backInUp" target="_blank"> <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord" class="immagine"> Discord </a>          
+                <a href="https://t.me/sstTECHZONE" class="social social-telegram animate__animated animate__backInUp animate__delay-1s" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram" class="immagine"> Telegram </a>                    
             <!-- dark mode project -->
-            <label class="switch animate__animated animate__backInUp animate__delay-3s" id="switchNotte" onmousedown="dark()">
+            <label class="switch animate__animated animate__backInUp animate__delay-2s" id="switchNotte" onmousedown="dark()" onmouseup="dontwork()">
                 <input type="checkbox">
                 <span class="slider"></span>
             </label>
