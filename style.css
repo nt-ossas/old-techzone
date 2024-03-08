@@ -248,12 +248,6 @@ table{
     width: 240px;
     box-shadow: 0px 5px 10px 5px rgb(11,11,11);
 }
-.social-whatsapp{
-    background-image: url(https://wallpapers.com/images/hd/whatsapp-icon-pattern-2xgv9df70fo6s9ex.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-top: 10px;
-}
 .social-discord{
     background-color: #7289da;
     margin-top: 10px;
@@ -264,6 +258,12 @@ table{
     background-image: url(https://www.tradingonlineguida.com/wp-content/uploads/2022/10/Segnali-di-Trading-scaled.jpg);
     background-size: cover;
     background-position: center;
+}
+.social-telegram:hover{
+  font-size: larger;
+}
+.social-discord:hover{
+  font-size: larger;
 }
 .immagine{
     width:1.5em;
@@ -345,11 +345,13 @@ aside{
 .darkmode{
     background-color: rgb(44,44,44);
     color: cornsilk;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 25px;
     padding-inline: 50px;
-    border: 6px solid rgb(11,11,11);
     border-radius: 12px;
+}
+.black{
+  background-color: black;
 }
 .corn{
   color: cornsilk;
@@ -479,7 +481,6 @@ hr{
   .king{
     position: relative;
     top: -800px;
-    margin-left: 50px;
   }
   aside{
     position: relative;
@@ -496,6 +497,8 @@ hr{
   nav{
       position: fixed;
       z-index: 3;
+      width: 630px;
+      left: 0px;
   }
   .hamburger{
       display:block;

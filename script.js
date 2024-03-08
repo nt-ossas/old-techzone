@@ -1,7 +1,7 @@
 function dark(){
     const bodyElements = document.querySelectorAll('.body');
     const liElements = document.querySelectorAll('li');
-
+    document.querySelector('body').classList.toggle('black');
     liElements.forEach((element) => {
     element.classList.toggle('corn');
     });
