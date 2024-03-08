@@ -15,6 +15,22 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.flex{
+  width: 320px;
+  border: 6px solid rgb(255,87,34);
+  padding: 50px;
+  border-radius: 12px;
+  transition: 0.4s;
+  margin: 40px;
+}
+.flex:hover{
+  width: 350px;
+  transition: 0.4s;
+}
+.descrizione{
+  color: cornsilk;
+  margin-top: 20px;
+}
 .img-header{
     border-radius: 12px;
     border: 6px solid rgb(255,87,34);
@@ -36,10 +52,6 @@ p{
 a{
     color: rgb(255,87,34);
 }
-a:hover{
-    font-size: 110%;
-    transition: 0.4s;
-}
 a.normal:hover{
     font-size: 100%;
     transition: 0.4s;
@@ -48,7 +60,7 @@ a.normal:hover{
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     margin: 20px;
-    box-shadow: 0px 3px 3px 3px black;
+    box-shadow: 0px 3px 3px 3px rgb(11,11,11);
 }
 .p-builds{
     width: 800px;
@@ -72,7 +84,7 @@ li{
   font-weight: bold;
   font-size: large;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -160,7 +172,7 @@ iframe{
 .bs{
   border-color: rgb(255,87,34);
   color: cornsilk;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 .pcpartpicker{
     position: fixed;
@@ -234,7 +246,7 @@ table{
     cursor:pointer;
     font-weight:bold;
     width: 240px;
-    box-shadow: 0px 5px 10px 5px black;
+    box-shadow: 0px 5px 10px 5px rgb(11,11,11);
 }
 .social-whatsapp{
     background-image: url(https://wallpapers.com/images/hd/whatsapp-icon-pattern-2xgv9df70fo6s9ex.jpg);
@@ -297,7 +309,7 @@ aside{
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 22px;
-    box-shadow: 0px 3px 5px 3px black;
+    box-shadow: 0px 3px 5px 3px rgb(11,11,11);
   }
   .slider:before {
     position: absolute;
@@ -407,7 +419,6 @@ nav{
   margin-left: 2vw;
   font-size: 1rem;
   cursor: pointer;
-
 }
 .login-button:hover {
   color: cornsilk;
@@ -422,6 +433,13 @@ nav{
   padding: 0.6rem 0.8rem;
   font-size: 1rem;
   cursor: pointer;
+}
+.navh:hover{
+  font-size: larger;
+  transition: 0.4s;
+}
+.navh{
+  transition: 0.4s;
 }
 .join-button:hover {
   color: cornsilk;
@@ -693,7 +711,6 @@ body {
   font-weight: 500;
   color: rgb(187, 82, 49);
 }
-
 
 /* ANIMATE CSS */
 .animate__animated.animate__headShake{
