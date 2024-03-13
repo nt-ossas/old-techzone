@@ -160,6 +160,7 @@ h3{
 }
 iframe{
     position: fixed;
+    right: 10px;
     bottom: 10px;
     border: 6px solid cornsilk;
     border-radius: 10px;
@@ -168,7 +169,7 @@ iframe{
 .rotto{
     position: fixed;
     top: 85px;
-    left: 10px;
+    right: 10px;
     border: 6px solid cornsilk;
     border-radius: 10px;
     width: 230px;
@@ -183,7 +184,7 @@ iframe{
 .pcpartpicker{
     position: fixed;
     bottom: 10px;
-    left: 10px;
+    right: 10px;
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     width: 230px;
@@ -201,7 +202,7 @@ iframe{
 }
 .king{
     margin: 0px 50px 30px;
-    margin-left: 290px;
+    margin-right: 290px;
     margin-top: 80px;
 }
 .part{
@@ -232,7 +233,7 @@ iframe{
     width: 350px;
     border-radius: 8px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 table{
   margin-top: 30px;
@@ -284,8 +285,8 @@ aside{
     text-align: center;
     color: cornsilk;
     width: 240px;
-    margin-left: 20px;
     position: fixed;
+    right: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .left{
@@ -365,6 +366,18 @@ aside{
 .dark{
   color: rgb(11,11,11);
 }
+.search{
+  width: 90%;
+  padding: 8px;
+  background-color: rgb(44,44,44);
+  border: 2px solid rgb(255,87,34);
+  border-radius: 18px;
+  transition: 0.2s;
+}
+.search:hover{
+  transition: 0.2s;
+  padding: 10px;
+}
 
 
 /* Navigation Bar */
@@ -428,6 +441,9 @@ nav{
   margin-left: 2vw;
   font-size: 1rem;
   cursor: pointer;
+  position: fixed;
+  right: 10px;
+  top: 13px;
 }
 .login-button:hover {
   color: cornsilk;
@@ -474,13 +490,10 @@ hr{
   border-color: rgb(44,44,44);
 }
 #about{
-  width: 800px;
-  rotate: 270deg;
-  position: relative;
-  right: 100px;
-}
-#about-p{
-  margin-left: -200px;
+  width: 350px;
+  padding-right: 75px;
+  padding-left: 75px;
+  margin-left: 25px;
 }
 
 @media only screen and (max-width: 1500px){
