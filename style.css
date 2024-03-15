@@ -186,7 +186,7 @@ iframe{
 .rotto{
     position: fixed;
     top: 85px;
-    right: 10px;
+    left: 10px;
     border: 6px solid cornsilk;
     border-radius: 10px;
     width: 230px;
@@ -219,7 +219,7 @@ iframe{
 }
 .king{
     margin: 0px 50px 30px;
-    margin-right: 290px;
+    margin-left: 290px;
     margin-top: 80px;
 }
 .part{
@@ -303,7 +303,7 @@ aside{
     color: cornsilk;
     width: 240px;
     position: fixed;
-    right: 20px;
+    left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .left{
