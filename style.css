@@ -15,43 +15,49 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+#subito{
+  color: cornsilk;
+  background-color: rgb(249, 66, 58);
+  padding: 10px;
+  border-radius: 8px;
+}
+#subito:hover{
+  font-size: larger;
+}
 .builds-img{
   height: 150px;
   width: auto;
 }
-#subito{
-  background-color: cornsilk;
-  border-radius: 30px;
-  border: 6px solid red;
-  padding: 100px;
-  width: 50%;
-}
-.subito{
-  text-align: center;
-  padding: 30px;
-  background-color: red;
-  color: cornsilk;
-  border-radius: 20px;
-  width: 30%;
+.details{
+  font-weight: normal;
+  padding-right: 10px;
+  padding-left: 10px;
   transition: 0.4s;
 }
-.subito:hover{
-  transition: 0.4s;
-  font-size:40px;
+.details:hover{
+  font-weight: bold;
+  font-size: large;
 }
 .flex{
-  display: flex;
-  flex-wrap: wrap;
   width: 320px;
+  height: 340px;
   border: 6px solid rgb(255,87,34);
   padding: 50px;
   border-radius: 12px;
   transition: 0.4s;
-  margin: 40px;
+  align-items: center;
+}
+.grid{
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  margin-bottom: 45px;
 }
 .flex:hover{
   width: 350px;
-  transition: 0.4s;
+  height: 400px;
+  padding-top: 80px;
+  transition: 0.5s;
 }
 .descrizione{
   color: cornsilk;
@@ -168,6 +174,8 @@ h3{
 }
 #nvidia{
     margin-right: 95px;
+    position: relative;
+    top: 5px;
 }
 #amd{
     margin-right: 200px;
@@ -221,7 +229,7 @@ iframe{
 .pcpartpicker{
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    left: 10px;
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     width: 230px;
@@ -303,12 +311,6 @@ table{
     background-size: cover;
     background-position: center;
 }
-.social-telegram:hover{
-  font-size: larger;
-}
-.social-discord:hover{
-  font-size: larger;
-}
 .immagine{
     width:1.5em;
     vertical-align:middle;
@@ -317,6 +319,8 @@ table{
 .part-info{
     border-radius: 8px;
     margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 aside{
     text-align: center;
