@@ -4,7 +4,7 @@
     margin: 30px;
 }
 body{
-  background-color: rgb(44,44,44);
+  background-color:  rgb(44,44,44);
 }
 .body{
     color: rgb(44,44,44);
@@ -18,6 +18,26 @@ body{
 .builds-img{
   height: 150px;
   width: auto;
+}
+#subito{
+  background-color: cornsilk;
+  border-radius: 30px;
+  border: 6px solid red;
+  padding: 100px;
+  width: 50%;
+}
+.subito{
+  text-align: center;
+  padding: 30px;
+  background-color: red;
+  color: cornsilk;
+  border-radius: 20px;
+  width: 30%;
+  transition: 0.4s;
+}
+.subito:hover{
+  transition: 0.4s;
+  font-size:40px;
 }
 .flex{
   display: flex;
