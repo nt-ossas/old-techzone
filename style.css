@@ -15,28 +15,57 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+#about-img{
+  border: 6px solid rgb(255,87,34);
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 3px rgb(11,11,11);
+  margin-bottom: 25px;
+  transition: 0.4s;
+}
+#about-img:hover{
+  width: 280px;
+  transition: 0.4s;
+}
+summary{
+  position: relative;
+  bottom: -10px;
+}
+.about-aside{
+  margin-left: 25px;
+  display: flex;
+  text-align: center;
+}
 #subito{
   color: cornsilk;
   background-color: rgb(249, 66, 58);
   padding: 10px;
   border-radius: 8px;
 }
-#subito:hover{
-  font-size: larger;
-}
 .builds-img{
   height: 150px;
   width: auto;
 }
 .details{
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 15px;
   padding-right: 10px;
   padding-left: 10px;
   transition: 0.4s;
 }
+.details-div{
+  font-size: 18px;
+  transition: 0.4s;
+  margin: 50px;
+}
+.details-div:hover{
+  width: 340px;
+  font-size: 24px;
+  transition: 0.6s;
+  padding: 15px;
+}
 .details:hover{
-  font-weight: bold;
-  font-size: large;
+  font-size: 16.5px;
+  transition: 0.4s;
 }
 .flex{
   width: 320px;
@@ -340,6 +369,7 @@ aside{
     width: 60px;
     height: 34px;
     margin-top: 10px;
+    transition: 0.4s;
   }
   .switch input {
     opacity: 0;
