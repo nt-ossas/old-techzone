@@ -563,16 +563,11 @@ hr{
   margin-left: 25px;
 }
 
-/* Responsive Styles for Index display grid */
-
-@media only screen and (max-width: 960px) {    
+/* Style Mobile*/
+@media only screen and (max-width: 800px){
   .body-redo{
     grid-template-columns: 1fr;
   }
-}
-
-/* Style Mobile*/
-@media only screen and (max-width: 800px){
   .social{
     visibility: hidden;
     opacity: 0;
