@@ -563,17 +563,24 @@ hr{
   margin-left: 25px;
 }
 
+/* Responsive Styles for Index display grid */
+
+@media only screen and (max-width: 960px) {    
+  .body-redo{
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Style Mobile*/
 @media only screen and (max-width: 800px){
+  .social{
+    visibility: hidden;
+  }
   .king{
     position: relative;
-    top: -800px;
+    top: -850px;
   }
   aside{
-    position: relative;
-    right: 2000px;
-  }
-  #gpu-brand,#cpu-brand{
     position: relative;
     right: 2000px;
   }
