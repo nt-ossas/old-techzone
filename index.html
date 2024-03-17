@@ -27,7 +27,12 @@
                     <li><a href="/TECHZONE/about" class="navh">About</a></li>
                     <li><a href="/TECHZONE/builds" class="navh">PC Builds</a></li>
                     <li><a href="/TECHZONE/cryptozone"  class="navh" onmousedown="dontwork()">CRYPTOZONE</a></li>
-                    <li><input type="text" placeholder="Search..." class="search" onmousedown="dontwork()"></li>
+                    <li>
+                        <button class="buttondark" onmousedown="dark()" style="position: relative;left: 200px;">
+                            <img src="img/luna.png" id="luna" width="25px" class="png">
+                            <img src="img/sole.png" id="sole" width="25px" class="hidden png">
+                        </button>
+                    </li>
                     <li><a href="/TECHZONE/singup" class="login-button" style="text-transform:none;">Log In</a></li>
                 </ul>
             </nav>
@@ -52,44 +57,38 @@
                     <p class="details">Sei curioso riguardo al mondo del trading o sei alle prime armi? Unisciti al canale Telegram CRYPTOZONE per rimanere aggiornato sulle ultime novità e per ricevere segnali che ti può guidare a concludere al meglio un investimento!
                     </p>
                 </a>
-            <!-- dark mode project -->
-            <label class="switch animate__animated animate__backInLeft animate__delay-3s" id="switchNotte" onmousedown="dark()">
-                <input type="checkbox">
-                <span class="slider"></span>
-            </label>
             </aside>
             <!-- immagine TECHZONE -->
             <div style="margin-top: 100px;border-color: rgb(255,87,34);" class="king">
             <div class="head">
                 <img src="https://i.ibb.co/M1tbMSM/TECHZONE.png" width="450px" class="img-header animate__animated animate__bounceInDown">
             </div>
-            <h3 class="presentation" style="color: cornsilk;padding: 10px;">CPU (Core)</h3>
-            <div class="body elenco" id="ciao">
-                <ul>
-                    <li>
+            <h3 class="presentation">CPU (Core)</h3>
+            <div class="body elenco">
+                    <div style="text-align: left;">
                         <!-- CPU -->
                         <b><u>Le CPU</u></b>, o core, sono il "cervello" di un computer. Questi chip svolgono una vasta gamma di operazioni fondamentali necessarie per far funzionare un sistema informatico. Le CPU sono composte da diverse parti: 
                         <ol>
-                           <li style="margin-top: 15px;">Unità di controllo: gestisce e coordina le operazioni all'interno della CPU e controlla il flusso dei dati tra la memoria, i dispositivi di input/output e le altre parti del computer.</li> 
-                           <li>Unità di calcolo: esegue le istruzioni e i calcoli aritmetici richiesti dai programmi.</li> 
-                           <li>Memoria cache: una memoria veloce integrata nella CPU che conserva temporaneamente i dati frequentemente utilizzati per accelerare l'accesso ai dati e migliorare le prestazioni complessive.</li> 
+                           <li style="margin-top: 15px;"><b><u>Unità di controllo:</u></b> gestisce e coordina le operazioni all'interno della CPU e controlla il flusso dei dati tra la memoria, i dispositivi di input/output e le altre parti del computer.</li> 
+                           <li><b><u>Unità di calcolo:</u></b> esegue le istruzioni e i calcoli aritmetici richiesti dai programmi.</li> 
+                           <li><b><u>Memoria cache:</u></b> una memoria veloce integrata nella CPU che conserva temporaneamente i dati frequentemente utilizzati per accelerare l'accesso ai dati e migliorare le prestazioni complessive.</li> 
                         </ol>
                         <br>Le CPU interpretano le istruzioni dei programmi, eseguono le operazioni aritmetiche, gestiscono l'input e l'output dei dati e mantengono l'intera struttura del sistema in funzione. L'efficienza di una CPU è determinata dalla sua architettura, velocità di clock (frequenza a cui esegue le istruzioni) e dal numero di core, ovvero il numero di "cervelli" indipendenti all'interno della CPU che possono eseguire operazioni in parallelo. <br><br>
                         Le CPU sono utilizzate in quasi tutti i dispositivi informatici, dai computer desktop e laptop agli smartphone, ai server e ad una vasta gamma di dispositivi elettronici. Sono responsabili dell'esecuzione di programmi e istruzioni, rendendo possibile l'utilizzo dei sistemi informatici per una varietà di compiti.
-                    </li>
+                    </div>
             </div>
-            <h3 class="presentation" style="color: cornsilk;padding: 10px;">GPU (Schede Video)</h3>
+            <h3 class="presentation">GPU (Schede Video)</h3>
             <div class="body elenco">
-                    <li style="margin-top: 15px;margin-bottom: 15px;" id="gpu">
+                    <div style="margin-top: 15px;margin-bottom: 15px;text-align: left;" id="gpu">
                         <!-- GPU -->
                         <b><u>Le GPU</u></b>, o schede video, sono componenti hardware progettati per accelerare e ottimizzare i calcoli legati alla grafica e all'elaborazione parallela. Solitamente, sono utilizzati nei computer per renderizzare immagini, video e grafica 3D in tempo reale. <br><br>
                         Le GPU sono composte da migliaia di piccoli processori chiamati "core". Questi core lavorano insieme per gestire compiti intensivi di calcolo in parallelo, rendendo le GPU estremamente efficaci nel manipolare e visualizzare grandi quantità di dati simultaneamente. <br><br>
                         Negli ultimi anni, le GPU hanno visto un'enorme evoluzione, diventando sempre più potenti e efficienti, e hanno esteso il loro utilizzo oltre il semplice ambito grafico per supportare una vasta gamma di compiti computazionali.
-                    </li>
+                    </div>
             </div>
-            <h3 class="presentation" style="color: cornsilk;padding: 10px;">RAM (Random Access Memory)</h3>
+            <h3 class="presentation">RAM (Random Access Memory)</h3>
             <div class="body elenco">
-                    <li style="margin-top: 15px;">
+                    <div style="margin-top: 15px;text-align: left;">
                         <!-- RAM -->
                         <b><u>Le RAM</u></b> (Random Access Memory) sono dispositivi fondamentali nei computer e negli apparecchi elettronici che memorizzano temporaneamente i dati necessari per l'esecuzione dei programmi. I diversi standard DDR (Double Data Rate) rappresentano diverse generazioni di questa memoria, ognuna con caratteristiche e prestazioni diverse:
                         <ol>
@@ -99,11 +98,11 @@
                         <li style="margin-top: 15px;"><b><u>DDR4</u></b> (Double Data Rate 4): È diventata lo standard prevalente per la RAM nei computer di fascia media e alta intorno al 2017. Operando a tensioni di alimentazione inferiori, la DDR4 offre velocità di trasferimento dati più elevate rispetto alla DDR3, fino a 3200 MT/s (e oltre con overclocking).</li>
                         <li style="margin-top: 15px;"><b><u>DDR5</u></b> (Double Data Rate 5): È il più recente standard di RAM, introdotto sul mercato nel 2020/2021. La DDR5 è progettata per offrire prestazioni ancora più elevate rispetto alla DDR4. Ha una maggiore larghezza di banda e una capacità di trasferimento dati ancora superiore, fino a 6400 MT/s (e oltre con overclocking). Inoltre, presenta miglioramenti nell'efficienza energetica e nella gestione delle prestazioni.</li>
                         </ol>
-                    </li>
+                    </div>
             </div>
-            <h3 class="presentation" style="color: cornsilk;padding: 10px;">Memorie (NVME, SSD e HDD)</h3>
+            <h3 class="presentation">Memorie (NVME, SSD e HDD)</h3>
             <div class="body elenco">
-                    <li style="margin-top: 15px;">
+                    <div style="margin-top: 15px;text-align: left;">
                         <!-- MEMORIE-->
                         <b><u>Le MEMORIE</u></b>, o memorie fisse del computer, si riferiscono principalmente alle memorie di archiviazione permanente utilizzate per conservare dati a lungo termine. Queste memorie vengono spesso chiamate dispositivi di archiviazione di massa e sono fondamentali per conservare il sistema operativo, i programmi e i dati utente. Le tre principali tipologie di memorie fisse sono le Non Volatile Memory Express (NVMe), il Solid State Drive (SSD) e l'Hard Disk Drive (HDD).
                         <ol>
@@ -111,7 +110,7 @@
                             <li style="margin-top: 15px;"><b><u>SSD</u></b>sono dispositivi di archiviazione che utilizzano memoria flash per memorizzare dati. Non hanno parti mobili e questo li rende più veloci, affidabili e meo sensibili a urti e vibrazioni rispetto agli HDD.</li>
                             <li style="margin-top: 15px;"><b><u>HDD</u></b>sono dispositivi di archiviazione che utilizzano dischi magnetici rotanti per memorizzare i dati: ongi disco magnetuco è suddiviso in tracce e settori e possiede un braccio mobile che scrive e legge i dati.</li>
                         </ol>
-                    </li>
+                    </div>
                 </ul>
             </div>
             <!-- Stacco -->        
@@ -125,7 +124,6 @@
             <footer>
             <!-- brand GPU -->
             <div id="gpu-brand">
-            
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">3 principali brand di schede video</h3>
             <div class="body">
                 <a href="/TECHZONE/nvidia" id="nvidia"><img src="https://freepngimg.com/save/22979-nvidia-image/7322x1387" width="300px"></a>

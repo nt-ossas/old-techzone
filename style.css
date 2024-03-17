@@ -26,20 +26,46 @@ body{
   width: 280px;
   transition: 0.4s;
 }
-summary{
+.summary{
   position: relative;
   bottom: -10px;
+}
+.hidden{
+  visibility: hidden;
 }
 .about-aside{
   margin-left: 25px;
   display: flex;
   text-align: center;
 }
+#luna{
+  position: relative;
+  bottom: -7px;
+  transition: 0.2s;
+}
+#sole{
+  position: relative;
+  top: -21px;
+  transition: 0.2s;
+}
 #subito{
   color: cornsilk;
   background-color: rgb(249, 66, 58);
   padding: 10px;
   border-radius: 8px;
+}
+.buttondark{
+  background-color: rgb(255,87,34);
+  border: transparent;
+  border-radius: 50%;
+  color: cornsilk;
+  transition: 0.2s;
+  width: 40px;
+  height: 40px;
+}
+.buttondark:hover{
+  transition: 0.2s;
+  cursor: pointer;
 }
 .builds-img{
   height: 150px;
@@ -62,6 +88,7 @@ summary{
   font-size: 24px;
   transition: 0.6s;
   padding: 15px;
+  cursor:default;
 }
 .details:hover{
   font-size: 16.5px;
@@ -96,7 +123,7 @@ summary{
     border-radius: 12px;
     border: 6px solid rgb(255,87,34);
     margin-top: 30px;
-    box-shadow: 0px 5px 10px 5px black;
+    box-shadow: 0px 5px 10px 5px rgb(22,22,22);
 }
 th,td{
     padding: 8px;
@@ -138,6 +165,8 @@ a.normal:hover{
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
     margin: 20px;
+    color: cornsilk;
+    padding: 10px;
     box-shadow: 0px 3px 3px 3px rgb(11,11,11);
 }
 .p-builds{
@@ -363,63 +392,6 @@ aside{
     border: 6px solid cornsilk; 
     border-radius: 10px; 
 }
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    margin-top: 10px;
-    transition: 0.4s;
-  }
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: cornsilk;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 22px;
-    box-shadow: 0px 3px 5px 3px rgb(11,11,11);
-  }
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: rgb(44,44,44);
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 22px;
-  }
-  input:checked + .slider {
-    background-color: rgb(255,87,34);
-    box-shadow: 0px 3px 5px 3px black;
-  }
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(255,87,34);
-    box-shadow: 0px 3px 5px 3px black;
-  }
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  .slider.round {
-    border-radius: 34px;
-  }
-  .slider.round:before {
-    border-radius: 50%;
-  }
 .darkmode{
     background-color: rgb(44,44,44);
     color: cornsilk;
@@ -565,13 +537,6 @@ hr{
   padding-right: 75px;
   padding-left: 75px;
   margin-left: 25px;
-}
-
-@media only screen and (max-width: 1500px){
-  .flex{
-    visibility: hidden;
-    transition: 0.4s;
-  }
 }
 
 /* Style Mobile*/
