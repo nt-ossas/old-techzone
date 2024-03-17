@@ -27,7 +27,8 @@
                     <li><a href="/TECHZONE/about" class="navh">About</a></li>
                     <li><a href="/TECHZONE/builds" class="navh">PC Builds</a></li>
                     <li><a href="/TECHZONE/cryptozone"  class="navh" onmousedown="dontwork()">CRYPTOZONE</a></li>
-                    <li>
+                    <!-- DarkMode -->
+                    <li style="visibility: hidden;">
                         <button class="buttondark" onmousedown="dark()" style="position: relative;left: 200px;">
                             <img src="img/luna.png" id="luna" width="25px" class="png">
                             <img src="img/sole.png" id="sole" width="25px" class="hidden png">
@@ -63,33 +64,27 @@
             <div class="head">
                 <img src="https://i.ibb.co/M1tbMSM/TECHZONE.png" width="450px" class="img-header animate__animated animate__bounceInDown">
             </div>
-            <h3 class="presentation">CPU (Core)</h3>
-            <div class="body elenco">
-                    <div style="text-align: left;">
-                        <!-- CPU -->
-                        <b><u>Le CPU</u></b>, o core, sono il "cervello" di un computer. Questi chip svolgono una vasta gamma di operazioni fondamentali necessarie per far funzionare un sistema informatico. Le CPU sono composte da diverse parti: 
-                        <ol>
-                           <li style="margin-top: 15px;"><b><u>Unità di controllo:</u></b> gestisce e coordina le operazioni all'interno della CPU e controlla il flusso dei dati tra la memoria, i dispositivi di input/output e le altre parti del computer.</li> 
-                           <li><b><u>Unità di calcolo:</u></b> esegue le istruzioni e i calcoli aritmetici richiesti dai programmi.</li> 
-                           <li><b><u>Memoria cache:</u></b> una memoria veloce integrata nella CPU che conserva temporaneamente i dati frequentemente utilizzati per accelerare l'accesso ai dati e migliorare le prestazioni complessive.</li> 
-                        </ol>
-                        <br>Le CPU interpretano le istruzioni dei programmi, eseguono le operazioni aritmetiche, gestiscono l'input e l'output dei dati e mantengono l'intera struttura del sistema in funzione. L'efficienza di una CPU è determinata dalla sua architettura, velocità di clock (frequenza a cui esegue le istruzioni) e dal numero di core, ovvero il numero di "cervelli" indipendenti all'interno della CPU che possono eseguire operazioni in parallelo. <br><br>
-                        Le CPU sono utilizzate in quasi tutti i dispositivi informatici, dai computer desktop e laptop agli smartphone, ai server e ad una vasta gamma di dispositivi elettronici. Sono responsabili dell'esecuzione di programmi e istruzioni, rendendo possibile l'utilizzo dei sistemi informatici per una varietà di compiti.
-                    </div>
-            </div>
-            <h3 class="presentation">GPU (Schede Video)</h3>
-            <div class="body elenco">
-                    <div style="margin-top: 15px;margin-bottom: 15px;text-align: left;" id="gpu">
-                        <!-- GPU -->
-                        <b><u>Le GPU</u></b>, o schede video, sono componenti hardware progettati per accelerare e ottimizzare i calcoli legati alla grafica e all'elaborazione parallela. Solitamente, sono utilizzati nei computer per renderizzare immagini, video e grafica 3D in tempo reale. <br><br>
-                        Le GPU sono composte da migliaia di piccoli processori chiamati "core". Questi core lavorano insieme per gestire compiti intensivi di calcolo in parallelo, rendendo le GPU estremamente efficaci nel manipolare e visualizzare grandi quantità di dati simultaneamente. <br><br>
-                        Negli ultimi anni, le GPU hanno visto un'enorme evoluzione, diventando sempre più potenti e efficienti, e hanno esteso il loro utilizzo oltre il semplice ambito grafico per supportare una vasta gamma di compiti computazionali.
-                    </div>
-            </div>
-            <h3 class="presentation">RAM (Random Access Memory)</h3>
-            <div class="body elenco">
+            <!-- body -->
+            <div class="body-redo">
+                <!-- CPU -->
+                <div>
+                    <h3 class="presentation">CPU (Core)</h3>
+                <div class="redo elenco">
+                        <div style="text-align: left;">
+                            <b><u>Le CPU</u></b>, o core, sono il "cervello" di un computer. Questi chip svolgono una vasta gamma di operazioni fondamentali necessarie per far funzionare un sistema informatico. Le CPU sono composte da diverse parti: 
+                            <ol>
+                               <li style="margin-top: 15px;"><b><u>Unità di controllo:</u></b> gestisce e coordina le operazioni all'interno della CPU e controlla il flusso dei dati tra la memoria, i dispositivi di input/output e le altre parti del computer.</li> 
+                               <li><b><u>Unità di calcolo:</u></b> esegue le istruzioni e i calcoli aritmetici richiesti dai programmi.</li> 
+                               <li><b><u>Memoria cache:</u></b> una memoria veloce integrata nella CPU che conserva temporaneamente i dati frequentemente utilizzati per accelerare l'accesso ai dati e migliorare le prestazioni complessive.</li> 
+                            </ol>
+                            <br>Le CPU interpretano le istruzioni dei programmi, eseguono le operazioni aritmetiche, gestiscono l'input e l'output dei dati e mantengono l'intera struttura del sistema in funzione. L'efficienza di una CPU è determinata dalla sua architettura, velocità di clock (frequenza a cui esegue le istruzioni) e dal numero di core, ovvero il numero di "cervelli" indipendenti all'interno della CPU che possono eseguire operazioni in parallelo. <br><br>
+                            Le CPU sono utilizzate in quasi tutti i dispositivi informatici, dai computer desktop e laptop agli smartphone, ai server e ad una vasta gamma di dispositivi elettronici. Sono responsabili dell'esecuzione di programmi e istruzioni, rendendo possibile l'utilizzo dei sistemi informatici per una varietà di compiti.
+                        </div>
+                </div>
+                <!-- RAM -->
+                <h3 class="presentation">RAM (Random Access Memory)</h3>
+            <div class="redo elenco">
                     <div style="margin-top: 15px;text-align: left;">
-                        <!-- RAM -->
                         <b><u>Le RAM</u></b> (Random Access Memory) sono dispositivi fondamentali nei computer e negli apparecchi elettronici che memorizzano temporaneamente i dati necessari per l'esecuzione dei programmi. I diversi standard DDR (Double Data Rate) rappresentano diverse generazioni di questa memoria, ognuna con caratteristiche e prestazioni diverse:
                         <ol>
                         <li style="margin-top: 15px;"><b><u>DDR</u></b> (Double Data Rate): È stata la prima generazione di RAM DDR introdotta sul mercato. Operava a velocità di clock più basse rispetto ai successivi standard DDR2, DDR3, DDR4 e DDR5. La DDR ha contribuito a migliorare le prestazioni rispetto alla SDRAM (Synchronous Dynamic RAM) grazie al suo metodo di trasferimento dati a doppio rateo. Tuttavia, era inferiore in termini di velocità e capacità rispetto alle generazioni successive.
@@ -100,10 +95,22 @@
                         </ol>
                     </div>
             </div>
-            <h3 class="presentation">Memorie (NVME, SSD e HDD)</h3>
-            <div class="body elenco">
+            </div>
+            <div>
+            <!-- GPU -->
+            <h3 class="presentation">GPU (Schede Video)</h3>
+            <div class="redo elenco">
+                    <div style="margin-top: 15px;margin-bottom: 15px;text-align: left;" id="gpu">
+                        <b><u>Le GPU</u></b>, o schede video, sono componenti hardware progettati per accelerare e ottimizzare i calcoli legati alla grafica e all'elaborazione parallela. Solitamente, sono utilizzati nei computer per renderizzare immagini, video e grafica 3D in tempo reale. <br><br>
+                        Le GPU sono composte da migliaia di piccoli processori chiamati "core". Questi core lavorano insieme per gestire compiti intensivi di calcolo in parallelo, rendendo le GPU estremamente efficaci nel manipolare e visualizzare grandi quantità di dati simultaneamente. <br><br>
+                        Negli ultimi anni, le GPU hanno visto un'enorme evoluzione, diventando sempre più potenti e efficienti, e hanno esteso il loro utilizzo oltre il semplice ambito grafico per supportare una vasta gamma di compiti computazionali.
+                    </div>
+            </div>
+            <div>
+            <!-- MEMORIE-->
+                <h3 class="presentation">Memorie (NVME, SSD e HDD)</h3>
+            <div class="redo elenco">
                     <div style="margin-top: 15px;text-align: left;">
-                        <!-- MEMORIE-->
                         <b><u>Le MEMORIE</u></b>, o memorie fisse del computer, si riferiscono principalmente alle memorie di archiviazione permanente utilizzate per conservare dati a lungo termine. Queste memorie vengono spesso chiamate dispositivi di archiviazione di massa e sono fondamentali per conservare il sistema operativo, i programmi e i dati utente. Le tre principali tipologie di memorie fisse sono le Non Volatile Memory Express (NVMe), il Solid State Drive (SSD) e l'Hard Disk Drive (HDD).
                         <ol>
                             <li style="margin-top: 15px;"><b><u>NVMe</u></b>si riferiscono a un tipo di tecnologia di storage che offre prestazioni superiori rispetto agli standard precedenti come SATA (Serial ATA). Le memorie fisse NVMe sono spesso progettate per sfruttare a pieno le potenzialità delle moderne memorie flash. Alcune caratteristiche di questa tipologia di memoria sono per esempio l'elevata velocità di scrittura e lettura dei dati, la bassa latenza e sicuramente la piccola dimensione e la facilità di installazione.</li>
@@ -113,31 +120,32 @@
                     </div>
                 </ul>
             </div>
-            <!-- Stacco -->        
-            <div>
-                <center>
-                    <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4080/geforce-rtx-4080-super-og-1200x630.jpg" height="175px" style="margin: 50px" class="img-info animate__animated animate__headShake animate__infinite">
-                    <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/r7000-06-2.jpeg" height="175px" style="margin: 50px" class="img-info animate__animated animate__headShake animate__infinite">
-                    <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2981x1983/2400x1600/filters:focal(1491x992:1492x993):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25006992/14THGENDESKTOP.png" height="175px" style="margin: 50px" class="img-info animate__animated animate__headShake animate__infinite">
-                </center>
             </div>
+            <div class="redo" style="margin-top: 20px;">
+                <img src="img/componenti.jpg" style="max-width: 100%;border-radius: 8px;">
+            </div>
+            </div>
+            </div>
+            <!-- Footer -->        
             <footer>
             <!-- brand GPU -->
             <div id="gpu-brand">
-            <h3 class="presentation" style="color: cornsilk;padding: 10px;">3 principali brand di schede video</h3>
-            <div class="body">
-                <a href="/TECHZONE/nvidia" id="nvidia"><img src="https://freepngimg.com/save/22979-nvidia-image/7322x1387" width="300px"></a>
-                <a href="/TECHZONE/amd" id="amd"><img style="text-align: center;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
-                <a href="/TECHZONE/intel" id="intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150px"></a>
+            <h3 class="presentation" style="color: cornsilk;padding: 10px;">GPUs BRAND</h3>
+            <div>
+                <center>
+                    <a href="/TECHNOZONE.nvidia"><img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4080/geforce-rtx-4080-super-og-1200x630.jpg" height="175px" style="margin: 50px" class="img-info"></a>
+                    <a href="/TECHNOZONE.amd"><img src="img/radeon.jpg" height="175px" style="margin: 50px" class="img-info"></a>
+                    <a href="/TECHNOZONE.intel"><img src="img/intel_arc.jpg" height="175px" style="margin: 50px" class="img-info"></a>
+                </center>
             </div>
             </div>
             <!-- brand CPU -->
             <div id="cpu-brand">
-            <h3 style="color: cornsilk;padding: 10px;" class="presentation">2 principali brand di core</h3>
-            <div class="body" >
+            <h3 style="color: cornsilk;padding: 10px;" class="presentation">CPUs brand</h3>
+            <div>
                 <center>
-                <a href="/TECHZONE/cpu_intel" id="cpu_intel"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel-logo-2022.png" width="150"></a>
-                <a href="/TECHZONE/ryzen" id="ryzen"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" width="200px"></a>
+                    <a href="/TECHNOZONE.ryzen"><img src="https://cdn.arstechnica.net/wp-content/uploads/2023/01/r7000-06-2.jpeg" height="175px" style="margin: 50px" class="img-info"></a>
+                    <a href="/TECHNOZONE.cpu_intel"><img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2981x1983/2400x1600/filters:focal(1491x992:1492x993):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25006992/14THGENDESKTOP.png" height="175px" style="margin: 50px" class="img-info"></a>
                 </center>
             </div>
             </div>

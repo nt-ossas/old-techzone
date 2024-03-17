@@ -7,13 +7,29 @@ body{
   background-color:  rgb(44,44,44);
 }
 .body{
-    color: rgb(44,44,44);
-    background-color: cornsilk;
+    color: cornsilk;
     border-radius: 10px;
     padding: 25px;
     padding-inline: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redo{
+  padding:25px;
+  border-radius:8px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cornsilk;
+  text-align:center;
+  transition: 0.2s;
+  font-weight:300;
+  box-shadow: 0px 5px 10px 5px rgb(11,11,11);
+}
+.body-redo{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
 }
 #about-img{
   border: 6px solid rgb(255,87,34);
@@ -104,7 +120,8 @@ body{
   align-items: center;
 }
 .grid{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 90px;
   align-items: center;
   margin-bottom: 45px;
@@ -164,7 +181,8 @@ a.normal:hover{
 .presentation{
     border: 6px solid rgb(255,87,34);
     border-radius: 10px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: cornsilk;
     padding: 10px;
     box-shadow: 0px 3px 3px 3px rgb(11,11,11);
@@ -173,8 +191,9 @@ a.normal:hover{
     width: 800px;
 }
 li{
-    color: rgb(44,44,44);
+    color: cornsilk;
     text-align: start;
+    margin: 15px;
 }
 .REDIRECT{
     padding: 16px;
@@ -331,6 +350,11 @@ iframe{
 .img-info{
     border-radius: 8px;
     box-shadow: 0px 5px 10px 5px black;
+    transition: 0.3s;
+}
+.img-info:hover{
+  height: 200px;
+  transition: 0.3s;
 }
 .img-pc{
     width: 350px;
