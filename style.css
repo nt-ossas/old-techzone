@@ -575,6 +575,7 @@ hr{
 @media only screen and (max-width: 800px){
   .social{
     visibility: hidden;
+    opacity: 0;
   }
   .king{
     position: relative;
