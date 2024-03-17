@@ -1,4 +1,4 @@
-function dark(){
+/*function dark(){
     const bodyElements = document.querySelectorAll('.body');
     const liElements = document.querySelectorAll('li');
     const luna = document.getElementById( 'luna' );
@@ -14,7 +14,7 @@ function dark(){
     bodyElements.forEach((element) => {
     element.classList.toggle('darkmode');
     });
-};
+};*/
 function dontwork(){
     alert("Funzione ancora in fase di sviluppo, torna a controllare più tardi");
 };
