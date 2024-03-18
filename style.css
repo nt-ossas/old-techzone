@@ -8,7 +8,6 @@ body{
 }
 img{
   border-radius: 8px;
-  
 }
 .redo{
   padding:25px;
@@ -43,6 +42,8 @@ img{
 .summary{
   position: relative;
   bottom: -10px;
+  left: -10px;
+  font-size: 20px;
 }
 .hidden{
   visibility: hidden;
@@ -51,16 +52,6 @@ img{
   margin-left: 25px;
   display: flex;
   text-align: center;
-}
-#luna{
-  position: relative;
-  bottom: -7px;
-  transition: 0.2s;
-}
-#sole{
-  position: relative;
-  top: -21px;
-  transition: 0.2s;
 }
 #subito{
   color: cornsilk;
@@ -573,18 +564,35 @@ hr{
   margin-left: 25px;
 }
 
+/* Responsive grid builds page */
+@media only screen and (max-width: 1440px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width:  1000px){
+  .grid{
+    grid-template-columns: 1fr;
+    margin-left: 200px;
+  }
+}
+
 /* Style Mobile*/
 @media only screen and (max-width: 800px){
+  .king{
+    margin-left: 50px;
+  }
+  .grid{
+    margin-left: 150px;
+  }
   .body-redo{
     grid-template-columns: 1fr;
   }
+  .rotto{
+    visibility: hidden;
+  }
   .social{
     visibility: hidden;
-    opacity: 0;
-  }
-  .king{
-    position: relative;
-    top: -850px;
   }
   aside{
     position: relative;
