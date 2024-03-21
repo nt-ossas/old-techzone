@@ -414,6 +414,7 @@ aside{
     color: cornsilk;
     width: 240px;
     position: fixed;
+    top: 85px;
     left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -438,17 +439,17 @@ aside{
 .dark{
   color: rgb(11,11,11);
 }
-.search{
-  width: 90%;
-  padding: 8px;
-  background-color: rgb(44,44,44);
-  border: 2px solid rgb(255,87,34);
-  border-radius: 18px;
-  transition: 0.2s;
+a{
+  text-decoration: none;
 }
-.search:hover{
-  transition: 0.2s;
-  padding: 10px;
+#telegram_link{
+  transition: 0.3s;
+  font-weight: bold;
+}
+#telegram_link:hover{
+  transition: 0.3s;
+  text-decoration: underline;
+  font-size: large;
 }
 
 /* SING UP PAGE */
@@ -607,6 +608,7 @@ nav{
   display: flex;
   position: fixed;
   z-index: 10;
+  top: 0px;
 }
 
 /*Styling logo*/
@@ -659,6 +661,7 @@ nav{
  margin-left: 2vw;
  font-size: 1rem;
  cursor: pointer;
+ text-transform: none;
 }
 .login-button:hover {
   color: cornsilk;
@@ -697,7 +700,7 @@ nav{
   nav{
     position: fixed;
     left: 0px;
-    width: 562px;
+    max-width: 800px;
 }
 .hamburger{
     display:block;

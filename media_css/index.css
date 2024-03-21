@@ -1,9 +1,9 @@
 @media only screen and (max-width: 800px){
     .king{
         position: relative;
-        left: -40px;
-        top: -880px;
+        top: -800px;
         max-width: 100%;
+        margin-left: 50px;
     }
     .grid{
       margin-left: 150px;
