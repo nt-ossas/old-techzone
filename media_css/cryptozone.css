@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px){
     .king{
         position: relative;
+        left: -95px;
         margin-left: 0px;
         max-width: 100%;
     }
