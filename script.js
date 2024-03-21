@@ -1,20 +1,18 @@
-/*function dark(){
-    const bodyElements = document.querySelectorAll('.body');
-    const liElements = document.querySelectorAll('li');
-    const luna = document.getElementById( 'luna' );
-    const sole = document.getElementById( 'sole' );
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
 
-    // Change the class of the elements
-    luna.classList.toggle('hidden');
-    sole.classList.toggle('hidden');
-    document.querySelector('body').classList.toggle('black');
-    liElements.forEach((element) => {
-    element.classList.toggle('corn');
+hamburger.addEventListener('click', ()=>{
+   //Animate Links
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade");
     });
-    bodyElements.forEach((element) => {
-    element.classList.toggle('darkmode');
-    });
-};*/
+
+    //Hamburger Animation
+    hamburger.classList.toggle("toggle");
+});
+
 function dontwork(){
     alert("Funzione ancora in fase di sviluppo, torna a controllare più tardi");
 };
