@@ -13,6 +13,11 @@ img{
   max-width: 100%;
   width: 450px;
 }
+.about{
+  position: relative;
+  top:220px;
+  margin: 50px;
+}
 .redo{
   padding:25px;
   border-radius:8px;
@@ -55,6 +60,7 @@ img{
 .about-aside{
   margin-left: 25px;
   display: flex;
+  gap: 50px;
   text-align: center;
 }
 #subito{

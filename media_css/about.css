@@ -1,0 +1,37 @@
+@media only screen and (max-width: 800px){
+    .about-aside{
+        position: relative;
+        left: 20px;
+        margin-top: 200px;
+    }
+    .img-header{
+        position: relative;
+        left: 20px;
+        top: 80px;
+        max-width: 350px;
+    }
+    .redo{
+        width: 350px;
+    }
+    .grid{
+      margin-left: 150px;
+    }
+    .body-redo{
+      grid-template-columns: 1fr;
+    }
+    .rotto{
+      visibility: hidden;
+    }
+    aside{
+      position: relative;
+      right: 2000px;
+    }
+    #PCbuilds{
+      position: relative;
+      top: -600px;
+    }
+    .img-info{
+      width: 300px;
+      height: auto;
+    }
+}
