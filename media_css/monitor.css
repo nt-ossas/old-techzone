@@ -1,8 +1,8 @@
 @media only screen and (max-width: 800px){
     .king{
-        position: relative;
-        margin-left: 0px;
-        max-width: 100%;
+      position: relative;
+      left: -240px;
+      max-width: 100%;
     }
     .redo{
         width: 350px;
@@ -27,4 +27,8 @@
       position: relative;
       top: -600px;
     }
-  }
+    .img-info{
+      width: 300px;
+      height: auto;
+    }
+}
