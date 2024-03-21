@@ -700,7 +700,7 @@ nav{
   nav{
     position: fixed;
     left: 0px;
-    max-width: 800px;
+    width: 100%;
 }
 .hamburger{
     display:block;

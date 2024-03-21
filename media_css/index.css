@@ -2,6 +2,7 @@
     .king{
         position: relative;
         top: -800px;
+        right: -30px;
         max-width: 100%;
         margin-left: 50px;
     }
