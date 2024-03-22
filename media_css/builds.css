@@ -9,10 +9,9 @@
         width: 350px;
     }
     .grid{
-      margin-left: 150px;
-    }
-    .body-redo{
       grid-template-columns: 1fr;
+      position: relative;
+      left: 150px;
     }
     .rotto{
       visibility: hidden;
@@ -20,7 +19,7 @@
     .social{
       visibility: hidden;
     }
-    aside{
+    .rotto{
       position: relative;
       right: 2000px;
     }
