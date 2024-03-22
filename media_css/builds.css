@@ -1,25 +1,12 @@
 @media only screen and (max-width: 800px){
-    .about-aside{
+    .king{
         position: relative;
-        left: 20px;
-        margin-top: 300px;
-    }
-    .about-king{
-      margin-left: 70px;
-    }
-    .img-header{
-        position: relative;
-        left: 20px;
-        top: 80px;
-        max-width: 350px;
+        left: -95px;
+        margin-left: 0px;
+        max-width: 100%;
     }
     .redo{
         width: 350px;
-    }
-    .social{
-      margin-top: 20px;
-      margin-right: 80px;
-      position: inherit;
     }
     .grid{
       margin-left: 150px;
@@ -30,6 +17,9 @@
     .rotto{
       visibility: hidden;
     }
+    .social{
+      visibility: hidden;
+    }
     aside{
       position: relative;
       right: 2000px;
@@ -38,8 +28,4 @@
       position: relative;
       top: -600px;
     }
-    .img-info{
-      width: 300px;
-      height: auto;
-    }
-}
+  }
