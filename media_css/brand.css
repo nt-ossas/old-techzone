@@ -1,0 +1,34 @@
+@media only screen and (max-width: 800px){
+    .king{
+        margin-right: 285px;
+        margin-top: 40px;
+        max-width: 90%;
+    }
+    iframe{
+        visibility: hidden;
+    }
+    .img-pc{
+        width: 300px;
+    }
+    .body-redo{
+      grid-template-columns: 1fr;
+    }
+    .rotto{
+      visibility: hidden;
+    }
+    .social{
+      visibility: hidden;
+    }
+    aside{
+      position: relative;
+      right: 2000px;
+    }
+    #PCbuilds{
+      position: relative;
+      top: -600px;
+    }
+    .img-info{
+      width: 300px;
+      height: auto;
+    }
+}
