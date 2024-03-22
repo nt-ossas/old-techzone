@@ -11,67 +11,74 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="media_css/singup.css">
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav style="border-bottom: 4px solid rgb(255,87,34);box-shadow: 0px 0px 50px 0px black;">
       <div class="logo" style="display: flex;align-items: center;">
-       <span style="color:rgb(255,87,34); font-size:26px; font-weight:bold; letter-spacing: px;margin-left: 20px;">TECHZONE</span>
+       <span style="color:rgb(255,87,34); font-size:26px; font-weight:bold; letter-spacing: 1px;margin-left: 20px;">TECHZONE</span>
+      </div>
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
       </div>
       <ul class="nav-links">
-          <li><a href="/TECHZONE/index" class="navh">Home</a></li>
-          <li><a href="/TECHZONE/about" class="navh">About</a></li>
-          <li><a href="/TECHZONE/builds" class="navh">PC Builds</a></li>
-          <li><a href="/TECHZONE/cryptozone"  class="navh">CRYPTOZONE</a></li>
-          <li><a href="/TECHZONE/singup" class="login-button" style="text-transform:none;">Log In</a></li>
+          <li><a href="/TECHZONE/index">Home</a></li>
+          <li><a href="/TECHZONE/about">About</a></li>
+          <li><a href="/TECHZONE/builds">PC Builds</a></li>
+          <li><a href="/TECHZONE/cryptozone">CryptoZone</a></li>
+          <li><a href="/TECHZONE/monitor">Monitor</a></li>
+          <li><a class="login-button" href="/TECHZONE/singup">Login</a></li>
       </ul>
   </nav>
+  <script src="script.js"></script>
     <div class="container">
       <div class="form signup">
         <h2><b>Sign Up</b></h2>
         <div class="inputBox">
           <input type="text" required="required" />
           <i class="fa-regular fa-user"></i>
-          <span>username</span>
+          <span>Username</span>
         </div>
         <div class="inputBox">
           <input type="text" required="required" />
           <i class="fa-regular fa-envelope"></i>
-          <span>email address</span>
+          <span>Email</span>
         </div>
         <div class="inputBox">
           <input type="password" required="required" />
           <i class="fa-solid fa-lock"></i>
-          <span>create password</span>
+          <span>Crea Password</span>
         </div>
         <div class="inputBox">
           <input type="password" required="required" />
           <i class="fa-solid fa-lock"></i>
-          <span>confirm password</span>
+          <span>Conferma Password</span>
         </div>
         <div class="inputBox">
           <a href="https://exossas.github.io/TECHZONE/" id="exit1"><input type="submit" value="Create Account"/>
           </div></a>
-        <p>Already a member ? <a href="#" class="login">Log in</a></p>
+        <p>Hai già un account? <a href="#" class="login" style="text-decoration: underline;">Log in</a></p>
       </div>
 
       <div class="form signin">
-        <h2><b>Sign In</b></h2>
+        <h2><b>Log In</b></h2>
         <div class="inputBox">
           <input type="text" required="required" />
           <i class="fa-regular fa-user"></i>
-          <span>username</span>
+          <span>Username or Email</span>
         </div>
         <div class="inputBox">
           <input type="password" required="required" />
           <i class="fa-solid fa-lock"></i>
-          <span>password</span>
+          <span>Password</span>
         </div>
         <div class="inputBox">
           <a href="https://exossas.github.io/TECHZONE/" id="exit2"><input type="submit" value="Login" /></a>
         </div>
-        <p>Not Registered ? <a href="#" class="create">Create an account</a></p>
+        <p>Non sei registrato? <a href="#" class="create" style="text-decoration: underline;">Crea un account</a></p>
       </div>
     </div>
     <script>

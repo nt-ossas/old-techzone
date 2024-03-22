@@ -1,0 +1,36 @@
+@media only screen and (max-width: 800px){
+    .king{
+        position: relative;
+        top: -800px;
+        right: -30px;
+        max-width: 100%;
+        margin-left: 50px;
+    }
+    .grid{
+      margin-left: 150px;
+    }
+    .body-redo{
+      grid-template-columns: 1fr;
+    }
+    .rotto{
+      visibility: hidden;
+    }
+    .social{
+      visibility: hidden;
+    }
+    aside{
+      position: relative;
+      right: 2000px;
+    }
+    #PCbuilds{
+      position: relative;
+      top: -600px;
+    }
+    .img-info{
+      width: 300px;
+      height: auto;
+    }
+    .container{
+        width: 350px;
+    }
+}
