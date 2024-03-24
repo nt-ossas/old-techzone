@@ -1,9 +1,4 @@
 @media only screen and (max-width: 800px){
-    .about-aside{
-        position: relative;
-        left: 20px;
-        margin-top: 300px;
-    }
     .about-king{
       margin-left: 70px;
     }
@@ -42,4 +37,41 @@
       width: 300px;
       height: auto;
     }
+    article {
+      width: 80%;
+      min-width: 80%;
+      grid-template-columns: 1fr;
+    }
+    section.card {
+      left: 0px;
+      min-width: 100%;
+    }
+    section.card .text-content {
+      width: 100%;
+    }
+    section.card {
+      margin: 64px 0;
+      padding: 88px 36px 36px;
+      margin-bottom: 50px;
+      flex-direction: column;
+      border-radius: 24px;
+    }
+    section.card .text-content h3 {
+      max-width:calc(100% - 150px);
+      font-size: 1em;
+    }
+    section.card .text-content p,
+    section.card .text-content a {
+      font-size: 14px;
+    }
+    section.card .visual {
+      width: 100px;
+      right: 16px;
+      left: auto;
+      border-radius: 50%;
+    }
+    section.card .visual img{
+      width: 100%;
+      height: auto;
+      }
 }
