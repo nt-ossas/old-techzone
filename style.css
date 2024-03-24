@@ -87,8 +87,8 @@ img{
   width: auto;
 }
 .details{
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 100;
+  font-size: 14px;
   padding-right: 10px;
   padding-left: 10px;
   transition: 0.4s;
@@ -105,10 +105,6 @@ img{
   padding: 15px;
   cursor:default;
 }
-.details:hover{
-  font-size: 16.5px;
-  transition: 0.4s;
-}
 .flex{
   width: 320px;
   height: 340px;
@@ -121,7 +117,7 @@ img{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: cornsilk;
   text-align:center;
-  transition: 0.2s;
+  transition: 0.3s;
   font-weight:300;
   box-shadow: 0px 5px 10px 5px rgb(11,11,11);
 }
@@ -135,7 +131,10 @@ img{
 .flex:hover{
   width: 350px;
   height: 400px;
-  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   transition: 0.5s;
 }
 .descrizione{
@@ -172,7 +171,8 @@ tr{
   border: 4px solid cornsilk;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0px;
     text-align: left;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -239,7 +239,8 @@ summary:hover{
 h3{
     text-align: center;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
 }
 .link:hover{
     color:rgb(44,44,44);
@@ -395,6 +396,11 @@ table{
     font-weight:bold;
     width: 240px;
     box-shadow: 0px 5px 10px 5px rgb(11,11,11);
+    transition: .3s;
+}
+.social:hover{
+  margin-left: 25px;
+  transition: .3s;
 }
 .social-discord{
     background-color: #7289da;
@@ -403,7 +409,7 @@ table{
 }
 .social-telegram{
     margin-top: 10px;
-    background-image: url(https://www.tradingonlineguida.com/wp-content/uploads/2022/10/Segnali-di-Trading-scaled.jpg);
+    background-image: url(img/telegram-sfondo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -423,6 +429,7 @@ aside{
     top: 85px;
     left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
 }
 .left{
     border: 6px solid cornsilk; 
@@ -465,7 +472,6 @@ a{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -639,6 +645,8 @@ nav{
 }
 .nav-links li a{
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
   margin: 0 0.7vw;
   color: rgb(255,87,34);
   transition: 0.4s;
@@ -721,7 +729,7 @@ nav{
 .nav-links{
     position: fixed;
     background: #131418;
-    height: 100vh;
+    height: 65%;
     width: 100%;
     flex-direction: column;
     clip-path: circle(50px at 90% -20%);
@@ -741,19 +749,19 @@ nav{
     transition: all 0.5s ease 0.1s;
 }
 .nav-links li:nth-child(2){
-    transition: all 0.5s ease 0.3s;
+    transition: all 0.5s ease 0.2s;
 }
 .nav-links li:nth-child(3){
-    transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.3s;
 }
 .nav-links li:nth-child(4){
-    transition: all 0.5s ease 0.7s;
+    transition: all 0.5s ease 0.4s;
 }
 .nav-links li:nth-child(5){
-    transition: all 0.5s ease 0.9s;
+    transition: all 0.5s ease 0.5s;
 }
 .nav-links li:nth-child(6){
-    transition: all 0.5s ease 1.1s;
+    transition: all 0.5s ease .6s;
     margin: 0;
 }
 .nav-links li:nth-child(7){
@@ -837,4 +845,10 @@ article {
   width:calc(60vw + 248px);
   max-width:calc(920px + 248px);
   min-width:calc(640px + 248px); 
+}
+
+/* Font Family 4 all the website - ALWAYS ON BOTTOM */
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
 }

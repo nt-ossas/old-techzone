@@ -1,29 +1,41 @@
 @media only screen and (max-width: 800px){
     .king{
-        margin-left: 50px;
-    }
-    .grid{
-      margin-left: 100px;
-      grid-template-columns: 1fr;
-    }
-    .img-pc{
-      width: 280px;
-    }
-    .body-redo{
-      grid-template-columns: 1fr;
-    }
-    .rotto{
-      visibility: hidden;
-    }
-    .social{
-      visibility: hidden;
-    }
-    aside{
-      position: relative;
-      right: 2000px;
-    }
-    #PCbuilds{
-      position: relative;
-      top: -600px;
-    }
+    position: relative;
+    left: -90px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .redo{
+      width: 350px;
+  }
+  .grid{
+    margin-left: 150px;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .rotto{
+    visibility: hidden;
+  }
+  .social{
+    visibility: hidden;
+  }
+  aside{
+    position: relative;
+    right: 2000px;
+  }
+  #PCbuilds{
+    position: relative;
+    top: -600px;
+  }
+  .rotto{
+    visibility: hidden;
+  }
+  .social{
+    visibility: hidden;
+  }
+  .img-pc{
+    width: 275px;
+    position: relative;
+    right: -50px;
+  }
   }
