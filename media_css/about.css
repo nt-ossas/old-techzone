@@ -45,6 +45,7 @@
     section.card {
       left: 0px;
       min-width: 100%;
+      min-height: 100%;
     }
     section.card .text-content {
       width: 100%;
