@@ -1,17 +1,16 @@
 @media only screen and (max-width: 800px){
     .king{
-        position: relative;
-        left: -95px;
-        margin-left: 0px;
-        max-width: 100%;
-    }
-    .redo{
-        width: 350px;
+        margin-left: 50px;
     }
     .grid{
+      margin-left: 100px;
       grid-template-columns: 1fr;
-      position: relative;
-      left: 150px;
+    }
+    .img-pc{
+      width: 280px;
+    }
+    .body-redo{
+      grid-template-columns: 1fr;
     }
     .rotto{
       visibility: hidden;
@@ -19,7 +18,7 @@
     .social{
       visibility: hidden;
     }
-    .rotto{
+    aside{
       position: relative;
       right: 2000px;
     }

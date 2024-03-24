@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1400px){
     .about-king{
       margin-left: 70px;
     }
@@ -64,10 +64,16 @@
       font-size: 14px;
     }
     section.card .visual {
-      width: 100px;
+      width: 150px;
       right: 16px;
+      top: -60px;
       left: auto;
       border-radius: 50%;
+    }
+    section.card .visual:hover{
+      width: 175px;
+      transition: .8s;
+      top: -70px;
     }
     section.card .visual img{
       width: 100%;
