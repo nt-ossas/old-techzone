@@ -31,7 +31,14 @@
                     <li><a href="/TECHZONE/index">Home</a></li>
                     <li><a href="/TECHZONE/about">About</a></li>
                     <li><a href="/TECHZONE/builds">PC Builds</a></li>
-                    <li><a href="/TECHZONE/monitor">Monitor</a></li>
+                    <li>
+                        <details class="periferiche" onclick="dontwork()">
+                            <summary>Periferiche</summary>
+                            <ul>
+                                <li style="text-decoration: none;"><a href="/TECHZONE/monitor">Monitor</a></li>
+                            </ul>
+                        </details>
+                    </li>
                     <li><a href="/TECHZONE/cryptozone">CryptoZone</a></li>
                     <li><a class="login-button" href="/TECHZONE/singup">Login</a></li>
                 </ul>
@@ -223,8 +230,6 @@
             </div>
             </div>
             </div>
-            <!-- Footer -->        
-            <footer>
             <!-- brand GPUs -->
             <div id="gpu-brand">
             <h3 class="presentation" style="color: cornsilk;padding: 10px;">GPUs BRAND</h3>
@@ -247,9 +252,36 @@
             </div>
             </div>
             </div>
+
+    <!-- torna su --> 
+    <div class="tornasu">
+        <h3 onclick="dontwork()">Torna Su</h3>
+    </div>
+    <!-- Footer --> 
+    <footer>
+        <div class="foot">
+            <div class="sections">
+                <h3>WebSites</h3>
+                <ul>
+                    <li>TechZone</li>
+                    <li>CryptoZone</li>
+                    <li>About</li>
+                    <li>
+                        <details>
+                            <summary style="list-style-type: none;">Periferiche</summary>
+                            <ul>
+                                <li>Monitor</li>
+                                <li>Tastiere</li>
+                                <li>Mouse</li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
             </div>
             </div>
-            </footer>
             </div>
         </div>
     </body>

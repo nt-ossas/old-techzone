@@ -82,16 +82,21 @@ img{
   transition: 0.2s;
   cursor: pointer;
 }
+.periferiche{
+  position: inherit;
+  color: rgb(255,87,34);
+  font-weight: bold;
+}
 .builds-img{
   height: 150px;
   width: auto;
 }
 .details{
-  font-weight: 100;
-  font-size: 14px;
+  font-weight: 500;
   padding-right: 10px;
   padding-left: 10px;
   transition: 0.4s;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .details-div{
   font-size: 18px;
@@ -311,7 +316,7 @@ iframe{
   margin-bottom: 15px;
 }
 .bs{
-  border-color: rgb(255,87,34);
+  border: 6px solid rgb(255,87,34);
   color: cornsilk;
   margin-top: 0px;
 }
@@ -642,20 +647,20 @@ nav{
   align-items: center;
   text-transform: uppercase;
 }
-.nav-links li a{
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  margin: 0 0.7vw;
-  color: rgb(255,87,34);
-  transition: 0.4s;
-  font-weight: bold;
-}
-.nav-links li a:hover {
-  color: cornsilk;
-  font-size: large;
-  transition: 0.4s;
-}
+  .nav-links li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 0 0.7vw;
+    color: rgb(255,87,34);
+    transition: 0.4s;
+    font-weight: bold;
+  }
+  .nav-links li a:hover {
+    color: cornsilk;
+    font-size: large;
+    transition: 0.4s;
+  }
 .nav-links li {
   position: relative;
 }
@@ -846,8 +851,36 @@ article {
   min-width:calc(640px + 248px); 
 }
 
+/* Styling Footer */
+.tornasu{
+  background-color: rgb(33,33,33);
+  width: 100%;
+  position: static;
+  bottom: 0px;
+  padding: 20px;
+}
+.tornasu h3{
+  color: cornsilk;
+  cursor: pointer;
+}
+footer{
+  background-color: rgb(22,22,22);
+  width: 100%;
+  position: static;
+  bottom: 0px;
+  padding: 10%;
+  padding-inline: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.foot{
+}
+.foot .sections h3{
+  color: cornsilk;
+}
+
 /* Font Family 4 all the website - ALWAYS ON BOTTOM */
 *{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.5px;
 }
