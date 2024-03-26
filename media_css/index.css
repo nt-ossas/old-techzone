@@ -29,4 +29,14 @@
       width: 300px;
       height: auto;
     }
+    footer{
+      position: relative;
+      top: -800px;
+      margin-left: 50px;
+      visibility: visible;
+    }
+    .container2{
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
 }
