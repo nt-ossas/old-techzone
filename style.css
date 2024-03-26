@@ -786,6 +786,9 @@ width:0;
 .toggle .line3{
 transform: rotate(45deg) translate(-5px,-6px);
 }  
+footer{
+  visibility: hidden;
+}
 }
 
 section.card {
@@ -855,8 +858,6 @@ article {
 .tornasu{
   background-color: rgb(33,33,33);
   width: 100%;
-  position: static;
-  bottom: 0px;
   padding: 20px;
 }
 .tornasu h3{
@@ -864,19 +865,37 @@ article {
   cursor: pointer;
 }
 footer{
+  position: absolute;
   background-color: rgb(22,22,22);
   width: 100%;
-  position: static;
-  bottom: 0px;
-  padding: 10%;
-  padding-inline: 30%;
+}
+.end{
+  padding: 5%;
+  padding-inline: 25%;
+  text-align: left;
+  height: 400px;
   display: grid;
+  gap: 30%;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .foot{
+  width: 150px;
 }
-.foot .sections h3{
+.foot .sections h3,
+.foot .sections ul li a{
   color: cornsilk;
+  transition: .3s;
+}
+.foot .sections ul li a:hover,
+.foot .sections ul li summary:hover{
+  font-size: large;
+  transition: .3s;
+  font-weight: 600;
+}
+.mail{
+  color: rgb(255,87,34);
+  cursor: pointer;
+  transition: .4s;
 }
 
 /* Font Family 4 all the website - ALWAYS ON BOTTOM */
