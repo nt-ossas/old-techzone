@@ -3,7 +3,7 @@
         position: relative;
         left: -95px;
         margin-left: 0px;
-        max-width: 100%;
+        width: 100%;
     }
     .redo{
         width: 350px;
@@ -27,5 +27,9 @@
     #PCbuilds{
       position: relative;
       top: -600px;
+    }
+    footer{
+      width: 111%;
+      margin-left: -5.5%;
     }
   }

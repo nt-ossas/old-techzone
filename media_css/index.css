@@ -32,6 +32,7 @@
     footer{
       position: relative;
       top: -800px;
+      max-width: 90%;
       margin-left: 50px;
       visibility: visible;
     }

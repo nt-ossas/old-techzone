@@ -948,7 +948,10 @@ margin-top: 75px;
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
-}
+  }
+  footer{
+    visibility: visible;
+  }
 }
 @media(max-width: 574px){
   .footer-col{
