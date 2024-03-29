@@ -105,10 +105,15 @@ function mostraRisultato() {
             stampa.textContent = "Puoi mangiarti una ciotola di fragole con il succo al mirtillo !";
         } 
         else if(orario === "pranzo") {
-            stampa.textContent = "Puoi mangiarti un wrap con il POLLO con patatine !";
+            
+            const frasi = ["Puoi magiarti un paninozzo con il POLLO, bacon e patatine !","Puoi mangiarti un bel piatto di pasta con il tonno !"];
+            const random = Math.floor(Math.random() * frasi.length);
+            stampa.textContent = frasi[random];
         }
         else if(orario === "cena") {
-            stampa.textContent = "Puoi magiarti un paninozzo con il POLLO, bacon e patatine!";
+            const frasi = ["Puoi magiarti un paninozzo con il POLLO e patatine !","Puoi mangiarti un bel piatto di pasta con il tonno !"];
+            const random = Math.floor(Math.random() * frasi.length);
+            stampa.textContent = frasi[random];
         }
         else if(orario === "snack") {
             stampa.textContent = "Puoi mangiarti un po' di fragole con il succo al mirtillo!";
