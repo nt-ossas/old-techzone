@@ -9,6 +9,12 @@
         text-align: center;
         margin: 35px 15px;
     }
+    .main{
+        visibility: visible;
+    }
+    .second{
+        visibility: hidden;
+    }
     h1{
         color: pink;
         text-shadow: 2px 3px 2px darkmagenta;
