@@ -86,10 +86,14 @@ function mostraRisultato() {
             stampa.textContent = "Puoi mangiarti una ciotola di fragole !";
         } 
         else if(orario === "pranzo") {
-            stampa.textContent = "Puoi mangiarti un wrap con il POLLO !";
+            const frasi = ["Puoi mangiarti un wrap con il POLLO !","Puoi mangiarti un bel piatto di pasta al sugo !"];
+            const random = Math.floor(Math.random() * frasi.length);
+            stampa.textContent = frasi[random];
         }
         else if(orario === "cena") {
-            stampa.textContent = "Puoi magiarti un paninozzo con il POLLO !";
+            const frasi = ["Puoi mangiarti un paninozzo con il POLLO !","Puoi mangiarti un bel piatto di carbonara !"];
+            const random = Math.floor(Math.random() * frasi.length);
+            stampa.textContent = frasi[random];
         }
         else if(orario === "snack") {
             stampa.textContent = "Puoi mangiarti un po' di fragole !";
