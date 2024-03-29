@@ -5,7 +5,7 @@ function mostraRisultato() {
     const stampa = document.getElementById("stampa");
 
     //fuori poca
-    if(dove === "fuori" && appetito === "poca"){
+    if(dove === "fuori" && appetito==="poca"){
         if(orario === "mattina") {
             stampa.textContent = "Puoi andare a fare colazione al bar vicino a casa !";
         } 
@@ -24,7 +24,7 @@ function mostraRisultato() {
         }
     }
     //fuori abbastanza
-    if(dove === "fuori" && appetito === "abbastanza"){
+    else if(dove === "fuori" && appetito === "abbastanza"){
         if(orario === "mattina") {
             stampa.textContent = "Puoi andare a prendere una bella pasta al bar vicino a casa !";
         } 
@@ -43,7 +43,7 @@ function mostraRisultato() {
         }
     }
     //fuori tanta
-    if(dove === "fuori" && appetito === "tanta"){
+    else if(dove === "fuori" && appetito === "tanta"){
         if(orario === "mattina") {
             stampa.textContent = "Puoi andare a fare colazione al mc/burger king !";
         } 
@@ -55,25 +55,6 @@ function mostraRisultato() {
         }
         else if(orario === "snack") {
             stampa.textContent = "Puoi andare a prendere qualcosa al bar !";
-        }
-        else{
-            stampa.textContent = "Seleziona luogo appetito e orario correttamente !";
-            alert("Seleziona luogo appetito e orario correttamente !");
-        }
-    }
-    //casa poca
-    else if(dove === "casa" && appetito === "poca"){
-        if(orario === "mattina") {
-            stampa.textContent = "Puoi mangiarti un po' di fragole !";
-        } 
-        else if(orario === "pranzo") {
-            stampa.textContent = "Puoi farti un panino con il POLLO !";
-        }
-        else if(orario === "cena") {
-            stampa.textContent = "Puoi farti una bella piadina (mozzarella) !";
-        }
-        else if(orario === "snack") {
-            stampa.textContent = "Puoi mangiarti un gelato !";
         }
         else{
             stampa.textContent = "Seleziona luogo appetito e orario correttamente !";
@@ -119,7 +100,7 @@ function mostraRisultato() {
         }
     }
     //casa tanta
-    else if(dove === "casa" && appetito === "abbastanza"){
+    else if(dove === "casa" && appetito === "tanta"){
         if(orario === "mattina") {
             stampa.textContent = "Puoi mangiarti una ciotola di fragole con il succo al mirtillo !";
         } 
