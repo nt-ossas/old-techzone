@@ -1,0 +1,342 @@
+*{
+    transition: .3s;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(44, 44, 44);
+    margin: 20px 100px;
+}
+img{
+    border-radius: 16px;
+}
+.img-head{
+    border: 6px solid rgb(255,87,34);
+    border-radius: 16px;
+}
+.body{ 
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.redo{  
+    padding:25px;
+    border-radius:8px;
+    background-color: rgb(33,33,33);
+    box-sizing: border-box;
+    text-decoration:none;
+    text-align: left;
+    color: cornsilk;
+    text-align:center;
+    font-weight:300;
+    box-shadow: 0px 5px 10px 5px rgb(22,22,22);
+}
+h3.presentation{
+    border: 6px solid rgb(255,87,34);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: cornsilk;
+    padding: 10px;
+    box-shadow: 0px 3px 3px 3px rgb(11,11,11);
+}
+
+/* Styling Footer */
+.tornasu{
+    background-color: rgb(33,33,33);
+    padding: 10px;
+    text-align: center;
+}
+.tornasu h3{
+    color: cornsilk;
+    cursor: pointer;
+}
+footer{
+    text-align: left;
+    position: absolute;
+    background-color: rgb(22,22,22);
+    width: 100%;
+    left: 0px;
+    margin-top: 75px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.container2{
+    max-width: 1170px;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.row{
+    display: flex;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: cornsilk;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: rgb(255,87,34);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: cornsilk;
+    text-decoration: none;
+    font-weight: 300;
+    color: cornsilk;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: cornsilk;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(33, 33, 33);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: cornsilk;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: cornsilk;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV BAR */
+    nav{
+    height: 4.5rem;
+    width: 100vw;
+    background-color: #131418;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    }
+    
+    /*Styling logo*/
+    .logo{
+    padding:1vh 1vw;
+    text-align: center;
+    }
+    .logo img {
+    height: 5rem;
+    width: 5rem;
+    }
+    
+    /*Styling Links*/
+    .nav-links{
+    display: flex;
+    list-style: none; 
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    }
+    .nav-links li a{
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+      margin: 0 0.7vw;
+      color: rgb(255,87,34);
+      transition: 0.4s;
+      font-weight: bold;
+    }
+    .nav-links li a:hover {
+      color: cornsilk;
+      font-size: large;
+      transition: 0.4s;
+    }
+    .nav-links li {
+    position: relative;
+    }
+    .nav-links li a:hover::before{
+    width: 80%;
+    }
+    
+    /*Styling Buttons*/
+    .login-button{
+    color: rgb(255,87,34);
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid rgb(255,87,34);
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: none;
+    }
+    .login-button:hover {
+    color: cornsilk;
+    background-color: rgb(255,87,34);
+    transition: all ease-in-out 350ms;
+    }
+    .join-button{
+    color: cornsilk;
+    background-color: cornsilk;
+    border: 1.5px solid cornsilk;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+    .join-button:hover {
+    color: cornsilk;
+    background-color: transparent;
+    border:1.5px solid cornsilk;
+    transition: all ease-in-out 350ms;
+    }
+    
+    /*Styling Hamburger Icon*/
+    .hamburger div{
+    width: 30px;
+    height:3px;
+    background: cornsilk;
+    margin: 5px;
+    transition: all 0.3s ease;
+    }
+    .hamburger{
+    display: none;
+    }
+    @media only screen and (max-width:800px) {
+    /* NAV BAR */
+    nav{
+      position: fixed;
+      left: 0px;
+      width: 100%;
+    }
+    .hamburger{
+      display:block;
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+      transition: all 0.7s ease;
+    }
+    .nav-links{
+      position: fixed;
+      background: #131418;
+      height: 65%;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(50px at 90% -20%);
+      -webkit-clip-path: circle(50px at 90% -10%);
+      transition: all .5s ease-out;
+      pointer-events: none;
+    }
+    .nav-links.open{
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+      pointer-events: all;
+    }
+    .nav-links li{
+      opacity: 0;
+    }
+    .nav-links li:nth-child(1){
+      transition: all 0.5s ease 0.1s;
+    }
+    .nav-links li:nth-child(2){
+      transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(3){
+      transition: all 0.5s ease 0.3s;
+    }
+    .nav-links li:nth-child(4){
+      transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(5){
+      transition: all 0.5s ease 0.5s;
+    }
+    .nav-links li:nth-child(6){
+      transition: all 0.5s ease .6s;
+      margin: 0;
+    }
+    .nav-links li:nth-child(7){
+      transition: all 0.5s ease 1s;
+      margin: 0;
+    }
+    li.fade{
+      opacity: 1;
+    }
+    /*Animating Hamburger Icon on Click*/
+    .toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+    }
+    .toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    }
+    }

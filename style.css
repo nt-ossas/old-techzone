@@ -33,9 +33,9 @@ font-weight:300;
 box-shadow: 0px 5px 10px 5px rgb(11,11,11);
 }
 .body-redo{
-display: grid;
-gap: 30px;
-grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
 }
 #about-img{
 border: 6px solid rgb(255,87,34);

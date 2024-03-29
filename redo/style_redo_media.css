@@ -1,0 +1,13 @@
+@media only screen and (max-width:800px){
+    body{
+        margin: 20px;
+    }
+    .body{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-head{
+        max-width: 100%;
+
+    }
+}
