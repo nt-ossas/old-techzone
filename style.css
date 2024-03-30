@@ -958,6 +958,44 @@ margin-top: 75px;
     width: 100%;
 }
 }
+.dropdown > .separator {
+  height: 1px;
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  background-color: #131418;
+}
+.navbar-dropdown {
+  position: relative;
+}
+.navbar-dropdown .dropdown.show {
+  display: block !important;
+}
+.navbar-dropdown .dropdown li a {
+  color: rgb(255,87,34);
+  padding: 0.25rem 1rem;
+  display: block;
+}
+.navbar-dropdown .dropdown li a:hover {
+  color: cornsilk;
+  font-size: large;
+}
+.navbar-dropdown .dropdown {
+  list-style: none;
+  position: absolute;
+  top: 150%;
+  left: 0;
+  background-color: #131418;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-width: 160px;
+  width: auto;
+  white-space: nowrap;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  z-index: 99999;
+  border-radius: 0.75rem;
+  display: none;
+}
 
 /* Font Family 4 all the website - ALWAYS ON BOTTOM */
 *{

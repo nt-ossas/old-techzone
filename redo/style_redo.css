@@ -13,6 +13,7 @@ img{
 .img-head{
     border: 6px solid rgb(255,87,34);
     border-radius: 16px;
+    max-width: 500px;
 }
 .body{ 
     display: grid;
@@ -129,7 +130,7 @@ footer{
     background-color: cornsilk;
 }
 
-/* NAV BAR */
+/* Styling NAV BAR */
     nav{
     height: 4.5rem;
     width: 100vw;
@@ -141,7 +142,18 @@ footer{
     top: 0px;
     left: 0px;
     }
-    
+    .periferiche summary{
+      color: rgb(255,87,34);
+      font-weight: bold;
+      list-style-type: none;
+    }
+    .periferiche summary:hover{
+      color: cornsilk;
+      font-size: large;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+
     /*Styling logo*/
     .logo{
     padding:1vh 1vw;
@@ -227,4 +239,42 @@ footer{
     }
     .hamburger{
     display: none;
+    }
+    .dropdown > .separator {
+      height: 1px;
+      width: 100%;
+      margin-top: 9px;
+      margin-bottom: 9px;
+      background-color: #131418;
+    }
+    .navbar-dropdown {
+      position: relative;
+    }
+    .navbar-dropdown .dropdown.show {
+      display: block !important;
+    }
+    .navbar-dropdown .dropdown li a {
+      color: rgb(255,87,34);
+      padding: 0.25rem 1rem;
+      display: block;
+    }
+    .navbar-dropdown .dropdown li a:hover {
+      color: cornsilk;
+      font-size: large;
+    }
+    .navbar-dropdown .dropdown {
+      list-style: none;
+      position: absolute;
+      top: 150%;
+      left: 0;
+      background-color: #131418;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      min-width: 160px;
+      width: auto;
+      white-space: nowrap;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      z-index: 99999;
+      border-radius: 0.75rem;
+      display: none;
     }

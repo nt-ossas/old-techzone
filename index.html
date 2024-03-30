@@ -32,44 +32,23 @@
                     <li><a href="/TECHZONE/index">Home</a></li>
                     <li><a href="/TECHZONE/about">About</a></li>
                     <li><a href="/TECHZONE/builds">PC Builds</a></li>
-                    <li>
-                        <details class="periferiche">
-                            <summary onclick="dontwork()">Periferiche</summary>
-                            <ul>
-                                <li style="text-decoration: none;"><a href="/TECHZONE/monitor">Monitor</a></li>
-                                <li style="text-decoration: none;"><a href="/TECHZONE/tastiere" onclick="dontwork()">Tastiere</a></li>
-                                <li style="text-decoration: none;"><a href="/TECHZONE/mouse" onclick="dontwork()">Mouse</a></li>
-                            </ul>
-                        </details>
-                    </li>
+                    <li class="navbar-dropdown">
+                        <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                          Periferiche <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown" id="my-dropdown-id">
+                          <li><a href="/TECHZONE/periferiche/monitor">Monitor</a></li>
+                          <li class="separator"></li>
+                          <li><a href="/TECHZONE/periferiche/mouse">Mouse</a></li>
+                          <li class="separator"></li>
+                          <li><a href="/TECHZONE/periferiche/tastiere">Tastiere</a></li>
+                        </ul>
+                      </li>
                     <li><a href="/TECHZONE/cryptozone">CryptoZone</a></li>
                     <li><a class="login-button" href="/TECHZONE/singup">Login</a></li>
                 </ul>
             </nav>
             <script src="script.js"></script>
-            <!-- collegamenti social 
-            <aside>
-                <a id="subito" class="social animate__animated animate__backInLeft" target="_blank" href="https://www.subito.it/utente/114863159">
-                    <summary style="list-style: none;position: relative;left: -10px;" >
-                        <img src="img/subito.png" class="immagine" style="background-color: cornsilk;border-radius: 12px;"> Subito
-                    </summary>
-                    <p class="details">Dai un occhiata al mio account subito, articoli usati in condizioni ottimali (Computer, parti di Computer, Console, Joytick, Videogames e altro) a un basso prezzo: un offerta così non te la fare scappare!</p>
-                </a>
-                <a class="social social-discord animate__animated animate__backInLeft animate__delay-1s" target="_blank" href="https://discord.gg/zu53RTeG77">
-                    <summary style="list-style: none;position: relative;left: -5px;" >
-                        <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" class="immagine"> Discord
-                    </summary>
-                    <p class="details">Che ne dici di unirti al Discord ufficiale della pagina TECHZONE? Pieno di novità e aggiornamenti con varie stanze vocali e testuali personalizzate e anche private. Unisciti alla nostra community, ti aspettiamo!</p>
-                </a>    
-                <a class="social social-telegram animate__animated animate__backInLeft animate__delay-2s" target="_blank" href="https://t.me/sstTECHZONE">
-                    <summary style="list-style: none;position: relative;left: -5px;" >
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="Telegram" class="immagine"> Telegram
-                    </summary>
-                    <p class="details">Sei curioso riguardo al mondo del trading o sei alle prime armi? Unisciti al canale Telegram CRYPTOZONE per rimanere aggiornato sulle ultime novità e per ricevere segnali che ti può guidare a concludere al meglio un investimento!
-                    </p>
-                </a>
-            </aside>
-            -->
             <!-- immagine TECHZONE -->
     <div style="margin-top: 100px;border-color: rgb(255,87,34);" class="king">
         <div>
