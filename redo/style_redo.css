@@ -74,7 +74,7 @@ footer{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 50%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -128,44 +128,6 @@ footer{
     color: #24262b;
     background-color: cornsilk;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* NAV BAR */
     nav{
@@ -265,78 +227,4 @@ footer{
     }
     .hamburger{
     display: none;
-    }
-    @media only screen and (max-width:800px) {
-    /* NAV BAR */
-    nav{
-      position: fixed;
-      left: 0px;
-      width: 100%;
-    }
-    .hamburger{
-      display:block;
-      position: absolute;
-      cursor: pointer;
-      right: 5%;
-      top: 50%;
-      transform: translate(-5%, -50%);
-      z-index: 2;
-      transition: all 0.7s ease;
-    }
-    .nav-links{
-      position: fixed;
-      background: #131418;
-      height: 65%;
-      width: 100%;
-      flex-direction: column;
-      clip-path: circle(50px at 90% -20%);
-      -webkit-clip-path: circle(50px at 90% -10%);
-      transition: all .5s ease-out;
-      pointer-events: none;
-    }
-    .nav-links.open{
-      clip-path: circle(1000px at 90% -10%);
-      -webkit-clip-path: circle(1000px at 90% -10%);
-      pointer-events: all;
-    }
-    .nav-links li{
-      opacity: 0;
-    }
-    .nav-links li:nth-child(1){
-      transition: all 0.5s ease 0.1s;
-    }
-    .nav-links li:nth-child(2){
-      transition: all 0.5s ease 0.2s;
-    }
-    .nav-links li:nth-child(3){
-      transition: all 0.5s ease 0.3s;
-    }
-    .nav-links li:nth-child(4){
-      transition: all 0.5s ease 0.4s;
-    }
-    .nav-links li:nth-child(5){
-      transition: all 0.5s ease 0.5s;
-    }
-    .nav-links li:nth-child(6){
-      transition: all 0.5s ease .6s;
-      margin: 0;
-    }
-    .nav-links li:nth-child(7){
-      transition: all 0.5s ease 1s;
-      margin: 0;
-    }
-    li.fade{
-      opacity: 1;
-    }
-    /*Animating Hamburger Icon on Click*/
-    .toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-    }
-    .toggle .line2{
-    transition: all 0.7s ease;
-    width:0;
-    }
-    .toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
-    }
     }
