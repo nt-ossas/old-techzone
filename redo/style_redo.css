@@ -20,6 +20,12 @@ img{
     gap: 30px;
     grid-template-columns: 1fr 1fr;
 }
+.redo a{
+    color: rgb(255,87,34);
+}
+.redo a:hover{
+    font-size: large;
+}
 .redo{  
     padding:25px;
     border-radius:8px;
@@ -40,6 +46,9 @@ h3.presentation{
     color: cornsilk;
     padding: 10px;
     box-shadow: 0px 3px 3px 3px rgb(11,11,11);
+}
+.brand img:hover{
+    height: 200px;
 }
 
 /* Styling Footer */

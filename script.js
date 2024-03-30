@@ -71,5 +71,5 @@ function handleSmallScreens() {
       }
     })
 }
-
 handleSmallScreens()
+

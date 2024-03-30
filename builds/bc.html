@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Custom build</title>
+        <link rel="icon" href=""/>
+        <meta http-equiv="refresh" content="300">
+        <meta name="keywords" content="TECHZONE, techzone, ossas, ntossas, exossas, computer, info">
+        <meta name="description" content="TECHZONE, improve yourself">
+        <meta name="author" content="Ossas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media_css/bs.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav style="border-bottom: 4px solid rgb(255,87,34);box-shadow: 0px 0px 50px 0px black;">
+            <div class="logo" style="display: flex;align-items: center;">
+             <span style="color:rgb(255,87,34); font-size:26px; font-weight:bold; letter-spacing: 1px;margin-left: 20px;">TECHZONE</span>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/TECHZONE/index">Home</a></li>
+                <li><a href="/TECHZONE/about">About</a></li>
+                <li><a href="/TECHZONE/builds">PC Builds</a></li>
+                <li><a href="/TECHZONE/monitor">Monitor</a></li>
+                <li><a href="/TECHZONE/cryptozone">CryptoZone</a></li>
+                <li><a class="login-button" href="/TECHZONE/singup">Login</a></li>
+            </ul>
+        </nav>
+        <script src="script.js"></script>
+        <style>
+            .animate__animated.animate__headShake{
+                --animate-duration: 6s;
+            }
+        </style>
+        <div class="rotto bs">
+            <h1 style="font-family: Arial, Helvetica, sans-serif;margin-top: 10px;">Custom PC</h1>
+            <img src="" width="180px" class="part-info">
+            <img src="" width="180px" class="part-info">
+        </div>        
+        <div class="king">
+        <center><img src="" class="img-pc animate__animated animate__bounceInDown"></center>
+        <div class="head" style="text-align: center; color: cornsilk;">
+            <h3 class="presentation" style="color: cornsilk;padding: 10px;">Custom PC</h3>
+            <div class="redo">
+                <p>
+                    Costruisci un computer su misura per te !
+                </p>
+                <ul> 
+                    <li class="part"><b><u>CPU:</u></b>
+                        <select id="cpu1">
+                            <option value="">select core</option>
+                            <option value="3">i3</option>
+                            <option value="5">i5</option>
+                            <option value="7">i7</option>
+                            <option value="9">i9</option>
+                        </select>
+                        <select id="cpu2">
+                            <option value="">select gen</option>
+                            <option value="12">12 gen</option>
+                            <option value="13">13 gen</option>
+                            <option value="14">14 gen</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>GPU:</u></b>
+                        <select id="gpu1">
+                            <option value="">select series</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                        </select>
+                        <select id="gpu2">
+                            <option value="">select end</option>
+                            <option value="50">50</option>
+                            <option value="50s">50s</option>
+                            <option value="50ti">50ti</option>
+                            <option value="60">60</option>
+                            <option value="60s">60s</option>
+                            <option value="60ti">60ti</option>
+                            <option value="70">70</option>
+                            <option value="70s">70s</option>
+                            <option value="70ti">70ti</option>
+                            <option value="70ti+s">70ti+s</option>
+                            <option value="80">80</option>
+                            <option value="80s">80s</option>
+                            <option value="80ti">80ti</option>
+                            <option value="90">90</option>
+                            <option value="90s">90s</option>
+                            <option value="90ti">90ti</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>RAM:</u></b>
+                        <select id="ram1">
+                            <option value="">select size</option>
+                            <option value="8">8gb</option>
+                            <option value="16">16gb</option>
+                            <option value="24">24gb</option>
+                            <option value="32">32gb</option>
+                            <option value="48">48gb</option>
+                            <option value="64">64gb</option>
+                            <option value="128">128gb</option>
+                        </select>
+                        <select id="ram2">
+                            <option value="">select speed</option>
+                            <option value="3200">3200mhz</option>
+                            <option value="3600">3600mhz</option>
+                            <option value="4000">4000mhz</option>
+                            <option value="5200">5200mhz</option>
+                            <option value="5600">5600mhz</option>
+                            <option value="6000">6000mhz</option>
+                            <option value="6400">6400mhz</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>SSD:</u></b>
+                        <select id="ssd1">
+                            <option value="">select size</option>
+                            <option value="128">128gb</option>
+                            <option value="256">256gb</option>
+                            <option value="512">512gb</option>
+                            <option value="1">1tb</option>
+                            <option value="1.5">1.5tb</option>
+                            <option value="2">2tb</option>
+                            <option value="3">3tb</option>
+                            <option value="4">4tb</option>
+                        </select>
+                        <select id="ssd2">
+                            <option value="">select speed</option>
+                            <option value="g1">gen 1</option>
+                            <option value="g2">gen 2</option>
+                            <option value="g3">gen 3</option>
+                            <option value="g4">gen 4</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>CASE:</u></b>
+                        <select id="case1">
+                            <option value="">select type</option>
+                            <option value="itx">mini itx</option>
+                            <option value="matx">micro atx</option>
+                            <option value="atx">atx</option>
+                            <option value="eatx">e-atx</option>
+                        </select>
+                        <select id="case2">
+                            <option value="">select size</option>
+                            <option value="none">none</option>
+                            <option value="left">left glass</option>
+                            <option value="left+front">left+front glass</option>
+                            <option value="left+front+up">left+front+up glass</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>MoBo:</u></b>
+                        <select id="mobo1">
+                            <option value="">wi-fi</option>
+                            <option value="">no wi-fi</option>
+                        </select>
+                        <select id="mobo2">
+                            <option value="">bluetooth</option>
+                            <option value="">no bluetooth</option>
+                        </select>
+                    </li>
+                    <li class="part"><b><u>PSU:</u></b>
+                        <select id="psu1">
+                            <option value="">watt</option>
+                            <option value="500">500w</option>
+                            <option value="550">550w</option>
+                            <option value="600">600w</option>
+                            <option value="650">650w</option>
+                            <option value="700">700w</option>
+                            <option value="750">750w</option>
+                            <option value="800">800w</option>
+                            <option value="850">850w</option>
+                            <option value="900">900w</option>
+                            <option value="950">950w</option>
+                            <option value="1000">1000w</option>
+                        </select>
+                        <select id="psu2">
+                            <option value="">efficiency</option>
+                            <option value="none">80+</option>
+                            <option value="bronze">80+ bronze</option>
+                            <option value="silver">80+ silver</option>
+                            <option value="gold">80+ gold</option>
+                            <option value="diamond">80+ diamond</option>
+                        </select>
+                    </li>
+                    <button onclick="build()">DONE</button>
+                </ul>
+                <h4 id="build" style="margin-top: 25px;">Visualizza la tua build</h4>
+            </div>
+            <script>
+                function build(){
+  var cpu1 = document.getElementById("cpu1").value;
+  var cpu2 = document.getElementById("cpu2").value;
+  var gpu1 = document.getElementById("gpu1").value;
+  var gpu2 = document.getElementById("gpu2").value;
+  var ram1 = document.getElementById("ram1").value;
+  var ram2 = document.getElementById("ram2").value;
+  var ssd1 = document.getElementById("ssd1").value;
+  var ssd2 = document.getElementById("ssd2").value;
+  var case1 = document.getElementById("case1").value;
+  var case2 = document.getElementById("case2").value;
+  var mobo1 = document.getElementById("mobo1").value;
+  var mobo2 = document.getElementById("mobo2").value;
+  var psu1 = document.getElementById("psu1").value;
+  var psu2 = document.getElementById("psu2").value;
+  const build = document.getElementById("build");
+  build.textContent = cpu1+cpu2+gpu1+gpu2+ram1+ram2+ssd1+ssd2+case1+case2+mobo1+mobo2+psu1+psu2;
+}
+            </script>
+        </div>
+    </div>
+    </body>
+</html>
