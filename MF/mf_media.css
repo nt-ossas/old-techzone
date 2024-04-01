@@ -1,0 +1,15 @@
+@media only screen and (max-width: 800px){
+    .scatola{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .head img{
+        width: 250px;
+        position: relative;
+        right: -20px;
+    }
+    .sotto{
+        grid-template-columns: 1fr;
+        margin-inline: 0px;
+    }
+}
