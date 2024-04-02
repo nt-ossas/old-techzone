@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     .scatola{
         grid-template-columns: 1fr;
         gap: 25px;
@@ -8,8 +8,15 @@
         position: relative;
         right: -20px;
     }
-    .sotto{
-        grid-template-columns: 1fr;
-        margin-inline: 0px;
+    .btn:hover:after{
+        visibility: hidden;
+    }
+    .scatola{
+        gap: 0%;
+    }
+}
+@media screen and (max-width: 1250px){
+    .scatola{
+        grid-template-columns: 1fr 1fr;
     }
 }
