@@ -10,8 +10,6 @@
     }
     .head img{
         width: 250px;
-        position: relative;
-        right: -20px;
     }
     .btn:hover:after{
         visibility: hidden;
@@ -20,10 +18,24 @@
         gap: 0%;
     }
     .container2{
-        padding-top:0px;
-        padding-bottom:0px;
+        padding-top:10px;
+        padding-bottom:10px;
     }
     .scatolina{
-        margin:0px;
+        margin-bottom: 0px;
     }
+    .menu-items li a:hover{
+      transition: .3s;
+      font-weight: 500;
+      font-size: medium;
+      color: cornsilk;
+    }
+    .navbar .menu-items{
+        scale: 0.8;
+        position: relative;
+        top: 55px;
+        right: -100px;
+        letter-spacing:2px;
+    }
+    
 }
