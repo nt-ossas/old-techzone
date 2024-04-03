@@ -1,21 +1,17 @@
-@media screen and (max-width: 1250px){
-    .scatola{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 @media screen and (max-width: 800px){
     .scatola{
         grid-template-columns: 1fr;
         gap: 25px;
     }
     .head img{
-        width: 250px;
+        width: 350px;
     }
     .btn:hover:after{
         visibility: hidden;
     }
     .scatola{
         gap: 0%;
+        margin-inline: 0%;
     }
     .container2{
         padding-top:10px;
@@ -36,5 +32,13 @@
         top: 55px;
         left: -30px;
         width: 175px;
+    }
+    nav{
+        margin-inline: 0%
+    }
+    main{
+        padding-bottom: 10px;
+        margin-top: 50px;
+        margin-inline: 0px;
     }
 }

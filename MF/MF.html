@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="mf.css">
     <link rel="stylesheet" href="mf_media.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="mf.js"></script>
+    <script src="script.js"></script>
 </head>
 <body id="b1">
     <!-- navbar -->
@@ -39,7 +39,6 @@
               </div>
             </div>
         </nav>
-    </main>
     <div class="head">
         <img src="img/mf_logo.png">
     </div>
@@ -58,17 +57,17 @@
                 <img src="img/porta.jpg">
             </div>
             <div class="scatolina btn">
-                <h3>Ciao</h3>
-                <p>ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao</p>
-                <img src="img/wood.webp">
-            </div>
-        </div>
-        <!-- centro -->    
-        <div class="centro">
-            <div class="scatolina btn">
                 <h3>Si parla di qualità?</h3>
                 <p>Noi impegnamo a fornire prodotti e servizi altamente personalizzati per soddisfare ogni specifica richiesta del cliente. Ogni pezzo è unico, creato con la massima attenzione ai dettagli e alle preferenze individuali, dalla scelta del legno fino alle finiture. Che si tratti di un mobile classico o di un design contemporaneo, la falegnameria lavora a stretto contatto con il cliente per assicurare che il risultato finale risponda alle esigenze funzionali.</p>
                 <img src="img/dettagli.webp">
+            </div>
+        </div> 
+        <!-- destra -->
+        <div class="destra">
+            <div class="scatolina btn">
+                <h3>Dove siamo?</h3>
+                <p>La Falegnameria MF, situata in Via della Costituzione 10 a Cavriago, è l’ideale per chi cerca un servizio di falegnameria di alta qualità e personalizzazione. Non solo offre la sua maestria artigianale localmente, ma è anche disponibile per progetti fuori provincia, portando la sua esperienza e professionalità direttamente a casa tua, ovunque tu sia. Per arredamenti unici che parlano di te, scegli la Falegnameria MF di Cavriago.</p>
+                <img src="img/dove.png">
             </div>
             <div class="scatolina btn">
                 <h3>Scuri in Legno su misura</h3>
@@ -81,25 +80,78 @@
                 <img src="img/porta.jpg">
             </div>
         </div>
-        <!-- destra -->
-        <div class="destra">
-            <div class="scatolina btn">
-                <h3>Dove siamo?</h3>
-                <p>La Falegnameria MF, situata in Via della Costituzione 10 a Cavriago, è l’ideale per chi cerca un servizio di falegnameria di alta qualità e personalizzazione. Non solo offre la sua maestria artigianale localmente, ma è anche disponibile per progetti fuori provincia, portando la sua esperienza e professionalità direttamente a casa tua, ovunque tu sia. Per arredamenti unici che parlano di te, scegli la Falegnameria MF di Cavriago.</p>
-                <img src="img/dove.png">
-            </div>
-            <div class="scatolina btn">
-                <h3>Ciao</h3>
-                <p>ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao</p>
-                <img src="img/wood.webp">
-            </div>
-            <div class="scatolina btn">
-                <h3>Ciao</h3>
-                <p>ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao</p>
-                <img src="img/wood.webp">
-            </div>
-        </div>
     </div>
+    <main>
+        <div class="slider" x-data="{start: true, end: false}" style="padding-top: 150px;">
+            <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 1</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 2</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 3</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 4</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 5</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 6</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 7</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 8</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 9</h2>
+                </div>
+              </div>
+              <div class="slider__item">
+                <img class="slider__image" src="img/dettagli.webp" alt="Image">
+                <div class="slider__info">
+                  <h2>Card 10</h2>
+                </div>
+              </div>
+            </div>
+            <div class="slider__nav" style="display: flex;justify-content: center;">
+              <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth * -1, behavior: 'smooth'});" x-bind:class="start ? '' : 'slider__nav__button--active'">Precedente</button>
+              <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});" x-bind:class="end ? '' : 'slider__nav__button--active'">Successivo</button>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js"></script>
+    </main>
 </body>
 
 <!-- Footer --> 
