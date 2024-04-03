@@ -259,7 +259,7 @@ body {
   font-weight: 500; 
   position: relative;
   top: -83px;
-  right: 20px;
+  left: 20px;
 }
 
 .navbar .menu-items li a:hover{
@@ -270,6 +270,7 @@ body {
 
 .navbar .menu-items {
   display: flex;
+  box-shadow: 1px 1px 8px 1px rgb(255,87,34);
 }
 
 .navbar .nav-container li {
@@ -346,13 +347,13 @@ body {
   background-color: rgb(44, 44, 44);
   height: 100px;
   width: 250px;
-  opacity: 1;
+  transform: translateX(-1000px);
   display: flex;
   flex-direction: column;
   position: relative;
-  top:75px;
+  top:90px;
   transition: transform 0.5s ease-in-out;
-  text-align: right;
+  text-align: left;
 }
 
 .navbar .menu-items li {
