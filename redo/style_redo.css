@@ -10,6 +10,17 @@ body{
 img{
     border-radius: 16px;
 }
+div.warning{
+    background-color: rgba(148, 0, 0, 0.722);
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 75px;
+    color: cornsilk;
+}
+div.warning h3{
+    animation: offline 3s infinite alternate;
+  }
 .img-head{
     border: 6px solid rgb(255,87,34);
     border-radius: 16px;
@@ -286,4 +297,27 @@ footer{
       z-index: 99999;
       border-radius: 0.75rem;
       display: none;
+    }
+    @keyframes offline {
+        15%{
+            transform: translate(-5%);  
+            rotate: -2deg;
+        }
+        30%{
+            transform: translate(5%);
+            rotate: 2deg;
+        }
+        40%{
+            transform: translate(0%);
+            rotate: 0deg;
+        }
+        50%{
+            transform: translate(0%, 15px);
+        }
+        60%{
+            transform: translate(0%, -15px);
+        }
+        70%{
+            transform: translate(0%, 0%);
+        }
     }
