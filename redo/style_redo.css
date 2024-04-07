@@ -300,24 +300,12 @@ footer{
     }
     @keyframes offline {
         15%{
-            transform: translate(-5%);  
-            rotate: -2deg;
+            transform: translate(-5%);
         }
         30%{
             transform: translate(5%);
-            rotate: 2deg;
         }
         40%{
             transform: translate(0%);
-            rotate: 0deg;
-        }
-        50%{
-            transform: translate(0%, 15px);
-        }
-        60%{
-            transform: translate(0%, -15px);
-        }
-        70%{
-            transform: translate(0%, 0%);
         }
     }
