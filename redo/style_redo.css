@@ -19,7 +19,11 @@ div.warning{
     color: cornsilk;
 }
 div.warning h3{
-    animation: offline 3s infinite alternate;
+    animation: offline 3s infinite;
+  }
+  .warning a{
+    color: cornsilk;
+    text-decoration: none;
   }
 .img-head{
     border: 6px solid rgb(255,87,34);
